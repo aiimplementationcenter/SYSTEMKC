@@ -22,7 +22,7 @@ export default function Page() {
                 <a className="btn btn--invert" href="#audit-form">Get My Free SYSTEM Audit <span className="arrow">→</span></a>
                 <a className="btn btn--ghost-invert" href="tel:8169622111">Call Jason: (816) 962-2111</a>
               </div>
-              <p className="trust" style={{marginTop: '28px'}}>Built locally in Kansas City for service businesses tired of losing time and leads to messy systems.</p>
+              <p className="trust" style={{marginTop: '28px'}}>Built locally in Kansas City for service businesses that are tired of guessing and want to actually understand what their operation needs.</p>
             </div>
 
             <div className="audit-hero-card">
@@ -292,7 +292,7 @@ export default function Page() {
             <div>
               <span className="label">Request your free audit</span>
               <h2 style={{marginTop: '14px', marginBottom: '6px'}}>Get My Free SYSTEM Audit.</h2>
-              <p style={{color: 'var(--muted)', fontSize: '17px', maxWidth: '48ch', lineHeight: '1.6'}}>For Kansas City-area home service companies. We look at the workflow before recommending the tool.</p>
+              <p style={{color: 'var(--muted)', fontSize: '17px', maxWidth: '52ch', lineHeight: '1.6'}}>Too many business owners are stuck in a loop — trying whatever sounded good on YouTube or a Facebook ad, then wondering why nothing stuck. The audit is how we help you cut through that and actually understand what your business needs.</p>
               <AuditLandingForm />
             </div>
 
@@ -312,8 +312,8 @@ export default function Page() {
                 <p className="ac-note" style={{fontSize: '15px', lineHeight: '1.65'}}>HVAC, plumbing, electrical, roofing, pest control, garage door, restoration, landscaping, and other home service companies in the Kansas City metro.</p>
               </div>
               <div className="aside-trust">
-                <strong style={{display: 'block', color: 'var(--ink)', marginBottom: '6px'}}>Limited availability</strong>
-                We're offering free audits for select Kansas City home service companies during this local launch. Spots are limited while we complete the first local audit round.
+                <strong style={{display: 'block', color: 'var(--ink)', marginBottom: '6px'}}>Why free?</strong>
+                Most business owners we talk to have tried three or four tools they heard about online — and still aren't sure what's actually working. We'd rather help you understand your options clearly than watch you guess your way through another purchase.
               </div>
             </div>
           </div>
@@ -328,7 +328,7 @@ export default function Page() {
           <FaqAccordion>
             <div className="faq-item open">
               <button className="faq-q"><span className="qnum">Q.01</span><span className="qtxt">Is this really free?</span><span className="qicn">+</span></button>
-              <div className="faq-a">Yes. We're offering free SYSTEM Audits for select Kansas City home service companies during this local launch. No catch, no credit card, no obligation to hire us afterward.</div>
+              <div className="faq-a">Yes. The audit costs nothing. We do it because most business owners we talk to are already spending money on tools that aren't solving the right problem — and we'd rather help you understand what's actually going on before recommending anything. No catch, no credit card, no obligation to hire us afterward.</div>
             </div>
             <div className="faq-item">
               <button className="faq-q"><span className="qnum">Q.02</span><span className="qtxt">Is this an AI sales pitch?</span><span className="qicn">+</span></button>
@@ -357,8 +357,8 @@ export default function Page() {
       {/* ── 10. FINAL CTA ── */}
       <section className="cta-strip">
         <div className="wrap inner">
-          <h2>Stop letting messy systems cost you <em>good jobs.</em></h2>
-          <p className="sub">Get a free SYSTEM Audit and see exactly where your business is losing stress, time, energy, or money. Plain English. No obligation.</p>
+          <h2>Know your options before you buy <em>anything else.</em></h2>
+          <p className="sub">The audit gives you a clear picture of where your business is leaking — and what to actually do about it. No tools pushed, no jargon. Just an honest look at your workflow from someone who's seen a lot of them.</p>
           <div className="actions">
             <a className="btn btn--invert" href="#audit-form">Get My Free SYSTEM Audit <span className="arrow">→</span></a>
             <a className="btn btn--ghost-invert" href="tel:8169622111">Call Jason: (816) 962-2111</a>
