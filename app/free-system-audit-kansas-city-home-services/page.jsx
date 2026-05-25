@@ -42,8 +42,52 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── 2. PAIN ── */}
+      {/* ── 2. WHY SYSTEM KC ── */}
       <section className="section">
+        <div className="wrap">
+          <span className="label">Why SYSTEM KC</span>
+          <h2 style={{marginTop: '14px', maxWidth: '22ch'}}>Built for Kansas City businesses that want practical systems, not more software chaos.</h2>
+
+          <div className="acro-strip">
+            {[['S','#1E3A5F','Save'],['Y','#7BB13C','Yourself'],['S','#E88B25','Stress'],['T','#6B2E91','Time'],['E','#1F8A99','Energy'],['M','#D4322E','Money']].map(([letter, color, word]) => (
+              <div className="acro-cell" key={letter + word}>
+                <div className="ac-letter" style={{color}}>{letter}</div>
+                <div className="ac-word">{word}</div>
+              </div>
+            ))}
+          </div>
+
+          <div className="why-grid">
+            <div className="why-item">
+              <div className="wi-label">Local</div>
+              <p>Kansas City company working with Kansas City businesses. We're not a remote agency sending you templates.</p>
+            </div>
+            <div className="why-item">
+              <div className="wi-label">Workflow first</div>
+              <p>We look at the way your business actually runs before recommending any tool. The workflow leads — the software follows.</p>
+            </div>
+            <div className="why-item">
+              <div className="wi-label">Find the leak first</div>
+              <p>We map the leak before we recommend a fix. Buying software before understanding the problem is how you waste money.</p>
+            </div>
+            <div className="why-item">
+              <div className="wi-label">Teach or build</div>
+              <p>We can teach your team to run the systems themselves, or build and hand it off. You pick what fits your situation.</p>
+            </div>
+            <div className="why-item">
+              <div className="wi-label">Simple first fix</div>
+              <p>We keep the first install simple enough to be running next week — not a six-month project that never ships.</p>
+            </div>
+            <div className="why-item">
+              <div className="wi-label">No jargon</div>
+              <p>We explain everything in plain English. No AI buzzwords, no confusing acronyms, no fake dashboards.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* ── 3. PAIN ── */}
+      <section className="section section--alt">
         <div className="wrap">
           <span className="label">Real problems, real pain</span>
           <h2 style={{marginTop: '14px', maxWidth: '20ch'}}>You may not need more leads. You may need fewer leaks.</h2>
@@ -110,8 +154,8 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── 3. WHAT WE CHECK ── */}
-      <section className="section section--alt">
+      {/* ── 4. WHAT WE CHECK ── */}
+      <section className="section">
         <div className="wrap">
           <span className="label">What the audit covers</span>
           <h2 style={{marginTop: '14px'}}>What we check during your SYSTEM Audit.</h2>
@@ -141,8 +185,8 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── 4. WHAT THEY RECEIVE ── */}
-      <section className="section">
+      {/* ── 5. WHAT THEY RECEIVE ── */}
+      <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">What you walk away with</span>
           <h2 style={{marginTop: '14px'}}>A plain-English fix list — not a software pitch.</h2>
@@ -169,8 +213,8 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── 5. FIRST SYSTEM ── */}
-      <section className="section section--alt">
+      {/* ── 6. FIRST SYSTEM ── */}
+      <section className="section">
         <div className="wrap">
           <span className="label">Where most companies start</span>
           <h2 style={{marginTop: '14px'}}>Most companies start with one simple system.</h2>
@@ -210,50 +254,6 @@ export default function Page() {
           <div style={{display: 'flex', gap: '14px', flexWrap: 'wrap', flexShrink: '0'}}>
             <a className="btn btn--primary" href="#audit-form">Get My Free SYSTEM Audit <span className="arrow">→</span></a>
             <a className="btn btn--ghost" href="tel:8169622111">Call Jason</a>
-          </div>
-        </div>
-      </section>
-
-      {/* ── 6. WHY SYSTEM KC ── */}
-      <section className="section">
-        <div className="wrap">
-          <span className="label">Why SYSTEM KC</span>
-          <h2 style={{marginTop: '14px', maxWidth: '22ch'}}>Built for Kansas City businesses that want practical systems, not more software chaos.</h2>
-
-          <div className="acro-strip">
-            {[['S','#1E3A5F','Save'],['Y','#7BB13C','Yourself'],['S','#E88B25','Stress'],['T','#6B2E91','Time'],['E','#1F8A99','Energy'],['M','#D4322E','Money']].map(([letter, color, word]) => (
-              <div className="acro-cell" key={letter + word}>
-                <div className="ac-letter" style={{color}}>{letter}</div>
-                <div className="ac-word">{word}</div>
-              </div>
-            ))}
-          </div>
-
-          <div className="why-grid">
-            <div className="why-item">
-              <div className="wi-label">Local</div>
-              <p>Kansas City company working with Kansas City businesses. We're not a remote agency sending you templates.</p>
-            </div>
-            <div className="why-item">
-              <div className="wi-label">Workflow first</div>
-              <p>We look at the way your business actually runs before recommending any tool. The workflow leads — the software follows.</p>
-            </div>
-            <div className="why-item">
-              <div className="wi-label">Find the leak first</div>
-              <p>We map the leak before we recommend a fix. Buying software before understanding the problem is how you waste money.</p>
-            </div>
-            <div className="why-item">
-              <div className="wi-label">Teach or build</div>
-              <p>We can teach your team to run the systems themselves, or build and hand it off. You pick what fits your situation.</p>
-            </div>
-            <div className="why-item">
-              <div className="wi-label">Simple first fix</div>
-              <p>We keep the first install simple enough to be running next week — not a six-month project that never ships.</p>
-            </div>
-            <div className="why-item">
-              <div className="wi-label">No jargon</div>
-              <p>We explain everything in plain English. No AI buzzwords, no confusing acronyms, no fake dashboards.</p>
-            </div>
           </div>
         </div>
       </section>
