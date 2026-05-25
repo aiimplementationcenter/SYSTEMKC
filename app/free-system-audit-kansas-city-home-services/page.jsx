@@ -16,7 +16,7 @@ export default function Page() {
           <div className="audit-hero-inner">
             <div>
               <span className="label label--invert">Free for Kansas City home service companies</span>
-              <h1 style={{marginTop: '18px'}}>Find the leaks before buying more software.</h1>
+              <h1 style={{marginTop: '18px'}}>You already know which part of the business is broken. You just haven't had <em>time</em> to fix it.</h1>
               <p className="sub">We'll review how your business handles calls, forms, quotes, scheduling, reviews, customer communication, and office handoffs — then show you the first system we'd fix.</p>
               <div className="actions">
                 <a className="btn btn--invert" href="#audit-form">Get My Free SYSTEM Audit <span className="arrow">→</span></a>
