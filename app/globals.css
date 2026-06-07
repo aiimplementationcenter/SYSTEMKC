@@ -544,5 +544,13 @@ button{font:inherit;cursor:pointer;border:0;background:none;color:inherit}
 /* ─── APPLY FORM ─── */
 .apply-form{display:flex;flex-direction:column;gap:18px;margin-top:8px}
 
-@media(max-width:900px){.three-col{grid-template-columns:1fr}.offer-grid{grid-template-columns:1fr}.stat-wall{grid-template-columns:1fr 1fr}.trust-grid{grid-template-columns:1fr}.dfy-grid{grid-template-columns:1fr}.mentorship-cols{grid-template-columns:1fr;gap:40px}}
+/* ─── APPLY PAGE ─── */
+.apply-layout{display:grid;grid-template-columns:1fr 1fr;gap:64px;align-items:start}
+.contact-card{background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:24px}
+.contact-card h4{font-family:var(--serif);font-size:18px;font-weight:700}
+
+/* ─── APPLY SUCCESS ─── */
+.apply-success{text-align:center;padding:48px 24px}
+
+@media(max-width:900px){.three-col{grid-template-columns:1fr}.offer-grid{grid-template-columns:1fr}.stat-wall{grid-template-columns:1fr 1fr}.trust-grid{grid-template-columns:1fr}.dfy-grid{grid-template-columns:1fr}.mentorship-cols{grid-template-columns:1fr;gap:40px}.apply-layout{grid-template-columns:1fr}}
 @media(max-width:520px){.stat-wall{grid-template-columns:1fr}}
