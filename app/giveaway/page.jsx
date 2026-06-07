@@ -46,7 +46,7 @@ export default function Page({ searchParams }) {
       </header>
 
       {/* ── DOUBLE WIN REFERRAL BANNER ── */}
-      <section style={{background: 'var(--c-s)', padding: '28px 0'}}>
+      <section style={{background: 'var(--c-e)', padding: '28px 0'}}>
         <div className="wrap" style={{textAlign: 'center'}}>
           <p style={{fontSize: 'clamp(16px, 2.2vw, 22px)', fontWeight: '700', color: '#fff', lineHeight: '1.4', maxWidth: '64ch', margin: '0 auto'}}>
             🎉 <strong>The Referral Rule:</strong> Refer another owner who gets chosen — and <em>you also win the full $20,000 scholarship.</em> Two businesses win.
@@ -80,7 +80,7 @@ export default function Page({ searchParams }) {
             </div>
 
             <div style={{background: '#fff', border: '2px solid var(--rule)', borderRadius: '16px', padding: '32px', position: 'relative', overflow: 'hidden'}}>
-              <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '5px', background: 'var(--c-n)'}}></div>
+              <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '5px', background: 'var(--c-s1)'}}></div>
               <div style={{fontSize: '32px', marginBottom: '12px'}}>⚙️</div>
               <h3 style={{fontSize: '18px', marginBottom: '16px'}}>Full Automation Install</h3>
               <ul style={{listStyle: 'none', padding: '0', margin: '0', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '15px', color: 'var(--muted)', lineHeight: '1.5'}}>
@@ -95,7 +95,7 @@ export default function Page({ searchParams }) {
             </div>
 
             <div style={{background: '#fff', border: '2px solid var(--rule)', borderRadius: '16px', padding: '32px', position: 'relative', overflow: 'hidden'}}>
-              <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '5px', background: 'var(--c-s)'}}></div>
+              <div style={{position: 'absolute', top: '0', left: '0', right: '0', height: '5px', background: 'var(--c-e)'}}></div>
               <div style={{fontSize: '32px', marginBottom: '12px'}}>🤝</div>
               <h3 style={{fontSize: '18px', marginBottom: '16px'}}>6 Months of Support</h3>
               <ul style={{listStyle: 'none', padding: '0', margin: '0', display: 'flex', flexDirection: 'column', gap: '10px', fontSize: '15px', color: 'var(--muted)', lineHeight: '1.5'}}>
@@ -121,19 +121,19 @@ export default function Page({ searchParams }) {
         <div className="wrap">
           <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'center'}}>
             <div>
-              <span style={{fontFamily: 'var(--mono)', fontSize: '12px', letterSpacing: '.15em', textTransform: 'uppercase', color: 'var(--c-s)', fontWeight: '700'}}>The referral rule</span>
+              <span style={{fontFamily: 'var(--mono)', fontSize: '12px', letterSpacing: '.15em', textTransform: 'uppercase', color: 'var(--c-e)', fontWeight: '700'}}>The referral rule</span>
               <h2 style={{marginTop: '16px', fontSize: 'clamp(26px, 3vw, 40px)', lineHeight: '1.2', color: 'var(--ink)'}}>Refer someone. If they win — you both win.</h2>
               <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>After you apply, you'll receive a unique referral link. Share it with other local service business owners who could genuinely use this.</p>
               <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>If someone you referred is selected as the winner, <strong style={{color: 'var(--ink)'}}>you also receive the full $20,000 scholarship</strong> — two businesses win simultaneously, at no cost to either of you.</p>
               <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>You can also write in a referral name directly on the application — if the person you referred wins and lists your name, the double-win applies.</p>
             </div>
             <div style={{display: 'flex', flexDirection: 'column', gap: '16px'}}>
-              <div style={{background: '#fff', border: '2px solid var(--c-s)', borderRadius: '14px', padding: '28px 32px', textAlign: 'center'}}>
+              <div style={{background: '#fff', border: '2px solid var(--c-e)', borderRadius: '14px', padding: '28px 32px', textAlign: 'center'}}>
                 <div style={{fontSize: '36px', marginBottom: '10px'}}>🏆</div>
                 <h3 style={{color: 'var(--ink)', fontSize: '20px', marginBottom: '6px'}}>The person you referred wins</h3>
                 <p style={{color: 'var(--muted)', fontSize: '14px'}}>They receive the full $20,000 scholarship</p>
               </div>
-              <div style={{textAlign: 'center', fontFamily: 'var(--mono)', fontSize: '28px', fontWeight: '700', color: 'var(--c-s)'}}>+</div>
+              <div style={{textAlign: 'center', fontFamily: 'var(--mono)', fontSize: '28px', fontWeight: '700', color: 'var(--c-e)'}}>+</div>
               <div style={{background: '#fff', border: '2px solid var(--c-m)', borderRadius: '14px', padding: '28px 32px', textAlign: 'center'}}>
                 <div style={{fontSize: '36px', marginBottom: '10px'}}>🎉</div>
                 <h3 style={{color: 'var(--ink)', fontSize: '20px', marginBottom: '6px'}}>You win too</h3>
@@ -160,12 +160,12 @@ export default function Page({ searchParams }) {
               <p>Complete the free application. Be honest and specific. The need questions carry the most weight. No polished pitches needed.</p>
             </div>
             <div className="three-card" style={{textAlign: 'center'}}>
-              <div style={{width: '56px', height: '56px', borderRadius: '50%', background: 'var(--c-n)', color: '#fff', fontFamily: 'var(--mono)', fontSize: '22px', fontWeight: '700', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px'}}>2</div>
+              <div style={{width: '56px', height: '56px', borderRadius: '50%', background: 'var(--c-s1)', color: '#fff', fontFamily: 'var(--mono)', fontSize: '22px', fontWeight: '700', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px'}}>2</div>
               <h3>We review every application</h3>
               <p>Every application is personally reviewed. We select the owner whose situation demonstrates the clearest, most genuine need.</p>
             </div>
             <div className="three-card" style={{textAlign: 'center'}}>
-              <div style={{width: '56px', height: '56px', borderRadius: '50%', background: 'var(--c-s)', color: '#fff', fontFamily: 'var(--mono)', fontSize: '22px', fontWeight: '700', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px'}}>3</div>
+              <div style={{width: '56px', height: '56px', borderRadius: '50%', background: 'var(--c-e)', color: '#fff', fontFamily: 'var(--mono)', fontSize: '22px', fontWeight: '700', display: 'flex', alignItems: 'center', justifyContent: 'center', margin: '0 auto 16px'}}>3</div>
               <h3>Winner notified — work begins</h3>
               <p>The selected recipient is contacted directly and we begin immediately. All applicants are notified of the outcome.</p>
             </div>
@@ -185,7 +185,7 @@ export default function Page({ searchParams }) {
           <div className="giveaway-layout">
             <div>
               {referredBy && (
-                <div style={{marginBottom: '24px', padding: '16px 20px', background: 'var(--c-s)', color: '#fff', borderRadius: '10px', fontSize: '15px', fontWeight: '600'}}>
+                <div style={{marginBottom: '24px', padding: '16px 20px', background: 'var(--c-e)', color: '#fff', borderRadius: '10px', fontSize: '15px', fontWeight: '600'}}>
                   🎉 You were referred — if you're chosen as the winner, the person who referred you also receives the full $20,000 scholarship.
                 </div>
               )}
@@ -211,8 +211,8 @@ export default function Page({ searchParams }) {
                 </ul>
               </div>
 
-              <div className="aside-card" style={{border: '2px solid var(--c-s)', borderRadius: '10px'}}>
-                <div className="ac-label" style={{color: 'var(--c-s)'}}>🎉 The double-win referral</div>
+              <div className="aside-card" style={{border: '2px solid var(--c-e)', borderRadius: '10px'}}>
+                <div className="ac-label" style={{color: 'var(--c-e)'}}>🎉 The double-win referral</div>
                 <p className="ac-note" style={{marginTop: '10px'}}>After applying, you'll get a referral link. If someone you refer wins, <strong>you also receive the full $20,000 program</strong> — free, no strings. You can also write in a referral on the form below.</p>
               </div>
 
