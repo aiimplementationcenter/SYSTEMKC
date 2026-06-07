@@ -100,16 +100,19 @@ export default function Page() {
       <section className="section section--alt">
         <div className="wrap">
           <span className="label">Who sees the biggest results</span>
-          <h2 style={{marginTop: '14px'}}>The businesses that explode when you plug the leaks.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '62ch'}}>These aren't industries we picked at random. They're the business types where we've seen the largest, fastest jumps — because the profit gaps are predictable and the fixes are proven.</p>
+          <h2 style={{marginTop: '14px'}}>If you offer a local service, this works for you.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '62ch'}}>The same profit gaps show up in every local service business. The fix is the same too. These are the business types where we see the largest, fastest jumps.</p>
           <div className="three-col" style={{marginTop: '40px'}}>
             {[
               ['HVAC & Plumbing', 'High-ticket, high-volume, and brutally competitive on response time. Missed-call text-back alone typically recovers 8–15 jobs per month that would have gone to a competitor.'],
               ['Roofing & Contractors', 'Long sales cycles and slow quote follow-up are the two biggest killers. Automated follow-up sequences keep leads warm for weeks without any manual effort.'],
-              ['Real Estate', 'Speed-to-lead is everything. Agents and teams that respond to inquiries in under 5 minutes close at 4× the rate of those who respond in an hour. We build that response into the system.'],
+              ['Real Estate', 'Speed-to-lead is everything. Agents and teams that respond in under 5 minutes close at 4× the rate of those who respond in an hour. We build that response into the system.'],
+              ['Salons, Nail Salons & Spas', 'Rebooking, no-show follow-up, and review requests are all automatable. Turn one-time visitors into regulars without lifting a finger after the appointment ends.'],
+              ['Barber Shops', 'Appointment reminders, waitlist automation, and a simple loyalty re-engagement sequence keep chairs full and clients coming back on a schedule.'],
+              ['Massage Therapists & Hair Stylists', 'Repeat visits are the whole business model. Automated re-engagement brings clients back before they forget to book — and referral systems turn happy clients into your best marketing.'],
               ['Restaurants & Food Service', 'Thin margins make every no-show and every missed review painful. Reservation reminders, review recovery, and loyalty re-engagement move the needle fast.'],
-              ['Medical & Dental Practices', 'No-show rates of 15–30% are common and devastating. Automated reminders and confirmation sequences cut that in half. Patient reactivation campaigns fill the gaps.'],
-              ['Law Firms & Professional Services', 'Intake falls through the cracks. Follow-up never happens. Automating the intake and communication workflow frees up billable hours and closes more consultations.'],
+              ['Medical & Dental Practices', 'No-show rates of 15–30% are common and devastating. Automated reminders cut that in half. Reactivation campaigns fill the gaps left by patients who drift away.'],
+              ['Law Firms & Professional Services', 'Intake falls through the cracks. Follow-up never happens. Automating intake and client communication frees up billable hours and closes more consultations.'],
             ].map(([title, desc]) => (
               <div className="three-card" key={title}>
                 <h3>{title}</h3>
@@ -117,7 +120,9 @@ export default function Page() {
               </div>
             ))}
           </div>
-          <p style={{marginTop: '28px', color: 'var(--muted)', fontSize: '15px'}}>Your industry not listed? <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask anyway →</a> The same patterns show up in almost every service business.</p>
+          <p style={{marginTop: '28px', padding: '16px 20px', background: 'var(--paper)', borderRadius: '8px', color: 'var(--muted)', fontSize: '15px', lineHeight: '1.7'}}>
+            Also: landscapers, pest control, gyms, veterinarians, auto repair, cleaning services, insurance agents, and more — <strong style={{color: 'var(--text)'}}>if your business sells a local service, the profit gaps are the same and the fixes work.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask about your industry →</a>
+          </p>
         </div>
       </section>
 

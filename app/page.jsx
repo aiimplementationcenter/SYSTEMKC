@@ -83,14 +83,21 @@ export default function Page() {
       <section className="section">
         <div className="wrap">
           <span className="label">Who sees the biggest results</span>
-          <h2 style={{marginTop: '14px', maxWidth: '28ch'}}>The businesses that grow fast when the leaks are plugged.</h2>
-          <div className="stat-wall" style={{marginTop: '40px'}}>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>HVAC & Plumbing</strong><div className="stat-desc">High-ticket and brutally competitive on response time. Missed-call text-back alone typically recovers 8–15 jobs per month that would have gone to a competitor.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>Roofing & Contractors</strong><div className="stat-desc">Slow quote follow-up is the biggest killer. Automated sequences keep leads warm for weeks — without anyone chasing them manually.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>Real Estate</strong><div className="stat-desc">Speed-to-lead is everything. Agents that respond in under 5 minutes close at 4× the rate of those who respond in an hour. We build that into the system.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>Medical, Dental & Legal</strong><div className="stat-desc">No-shows, cold intakes, and missed follow-up cost these businesses tens of thousands per year. Automated reminders and intake sequences cut losses fast.</div></div>
+          <h2 style={{marginTop: '14px', maxWidth: '28ch'}}>If you offer a local service, this works for you.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>The same profit gaps — missed calls, slow follow-up, no repeat-customer system — show up in every local service business. The fix is the same too. Here's where we see it most:</p>
+          <div className="stat-wall" style={{marginTop: '40px', gridTemplateColumns: 'repeat(4, 1fr)'}}>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>HVAC & Plumbing</strong><div className="stat-desc">Missed-call text-back alone recovers 8–15 jobs/month that would have gone to a competitor.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Roofing & Contractors</strong><div className="stat-desc">Automated quote follow-up keeps leads warm for weeks without anyone chasing them.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Real Estate</strong><div className="stat-desc">Respond in under 5 minutes and you close at 4× the rate. We build that speed into the system.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Medical & Dental</strong><div className="stat-desc">Automated reminders cut no-show rates in half. Reactivation campaigns fill the gaps.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Salons & Nail Salons</strong><div className="stat-desc">Rebooking sequences, no-show follow-up, and review requests turn one-time visits into regulars.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Barber Shops</strong><div className="stat-desc">Appointment reminders, waitlist automation, and loyalty campaigns keep chairs full without extra hustle.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Spas & Massage Therapists</strong><div className="stat-desc">Repeat visits are the whole business model. Automated re-engagement brings clients back before they forget you exist.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Hair Stylists & Studios</strong><div className="stat-desc">Client retention systems and referral automation turn every happy client into a referral machine.</div></div>
           </div>
-          <p style={{marginTop: '24px', color: 'var(--muted)', fontSize: '15px'}}>Restaurants, salons, landscapers, gyms, insurance agents — <a href="/industries/" style={{color: 'var(--c-e)', fontWeight: '600'}}>see all industries we work with →</a></p>
+          <p style={{marginTop: '24px', padding: '16px 20px', background: 'var(--bg-alt, var(--paper-2))', borderRadius: '8px', color: 'var(--muted)', fontSize: '15px', lineHeight: '1.7'}}>
+            Also: restaurants, landscapers, pest control, insurance agents, gyms, law firms, veterinarians, auto repair, cleaning services — <strong style={{color: 'var(--text)'}}>if you sell a local service, the system works.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask us about your industry →</a>
+          </p>
         </div>
       </section>
 
