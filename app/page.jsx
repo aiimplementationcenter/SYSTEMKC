@@ -130,10 +130,11 @@ export default function Page() {
               <span className="more">Learn more →</span>
             </a>
             <a className="offer-card offer-card--giveaway" href="/giveaway/">
-              <span className="tag">Free</span>
+              <span className="tag">Free · $20,000 value</span>
               <h3>The Scholarship</h3>
-              <p>The full Done-For-You program, awarded each cycle to the business owner who demonstrates the greatest need. No purchase necessary. Apply and tell us your situation.</p>
-              <span className="more">Apply for the scholarship →</span>
+              <p>The full 6-month Done-For-You program — $20,000 in business growth services — awarded each cycle to the owner who demonstrates the greatest need. No purchase necessary.</p>
+              <p style={{marginTop: '10px', fontSize: '14px', fontWeight: '600', color: 'var(--c-m)'}}>Refer someone who wins → you also win the full scholarship.</p>
+              <span className="more">Apply for the $20,000 scholarship →</span>
             </a>
           </div>
         </div>

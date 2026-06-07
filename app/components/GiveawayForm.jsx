@@ -133,6 +133,18 @@ export default function GiveawayForm({ referredBy }) {
         />
       </div>
 
+      <hr className="rule" style={{margin: '8px 0'}} />
+      <div className="form-row">
+        <label htmlFor="gw-referrer">Did someone refer you? (Optional)</label>
+        <input
+          id="gw-referrer"
+          name="referred_by_name"
+          type="text"
+          placeholder="Name and business of the person who told you about this"
+        />
+        <p style={{marginTop: '6px', fontSize: '13px', color: 'var(--muted)', lineHeight: '1.5'}}>If the person who referred you also applied, and you win — they receive the full $20,000 scholarship too. Enter their name so we can match it.</p>
+      </div>
+
       {state === 'error' && (
         <p className="form-error">Something went wrong. Try again or call Jason at (816) 962-2111.</p>
       )}

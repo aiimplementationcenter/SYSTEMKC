@@ -75,7 +75,7 @@ export default function Page() {
                 <li>Appointment reminders and review request workflow</li>
                 <li>SOPs, team training, and full account transfer to recipient</li>
               </ul>
-              <p>Approximate Retail Value (ARV): [PRIZE VALUE]. Actual value may vary. The Scholarship is awarded as a service engagement and has no cash equivalent. The Scholarship is non-transferable and may not be sold, exchanged, or redeemed for cash. Recipient must be available to begin the engagement within sixty (60) days of being notified of selection, or the award may be forfeited and awarded to an alternate applicant.</p>
+              <p>Approximate Retail Value (ARV): $20,000. Actual value may vary. The Scholarship is awarded as a service engagement and has no cash equivalent. The Scholarship is non-transferable and may not be sold, exchanged, or redeemed for cash. Recipient must be available to begin the engagement within sixty (60) days of being notified of selection, or the award may be forfeited and awarded to an alternate applicant.</p>
             </div>
 
             <div className="rule-block">
