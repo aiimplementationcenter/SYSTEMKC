@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'Business Systems Mentorship | S.Y.S.T.E.M. KC',
-  description: 'Monthly mentorship and ongoing system support for small business owners. We work through your business together — so you understand what you\'re building, not just have it handed to you.',
+  title: 'Do It With You — Monthly Business Systems Coaching | S.Y.S.T.E.M. KC',
+  description: 'Monthly coaching and system support starting at $399/month. We walk alongside you every step — guiding decisions, reviewing your builds, keeping you in the right sequence.',
 };
 
 export default function Page() {
@@ -12,11 +12,11 @@ export default function Page() {
       {/* ── HERO ── */}
       <section className="nat-hero">
         <div className="wrap">
-          <span className="label">Mentorship</span>
-          <h1 className="nat-h1">You want to understand what you're building — not just have someone hand it to you.</h1>
-          <p className="nat-lede">Monthly working sessions where we go through your business together — revenue model, operations, automations, and strategy. You do the work. We guide the decisions and keep you from building in the wrong order.</p>
+          <span className="label">Do It With You · Starts at $399 / month</span>
+          <h1 className="nat-h1">We walk alongside you every step. You build it. We make sure you're building the right things.</h1>
+          <p className="nat-lede">Monthly working sessions where we go through your business together — revenue model, operations, automations, and strategy. You do the work. We guide every decision and keep you from building in the wrong order.</p>
           <div className="actions">
-            <a className="btn btn--primary" href="/apply/">Apply for mentorship <span className="arrow">→</span></a>
+            <a className="btn btn--primary" href="/apply/">Apply to get started <span className="arrow">→</span></a>
             <a className="btn btn--ghost" href="tel:8169622111">Call Jason: (816) 962-2111</a>
           </div>
         </div>
@@ -26,9 +26,9 @@ export default function Page() {
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">Who this is for</span>
-          <h2 style={{marginTop: '14px'}}>The owner who wants the knowledge, not just the deliverable.</h2>
-          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Some owners want someone to build it and hand it over. Others want to build it themselves, but with someone in their corner who's done it before — so they don't waste time figuring out the sequence, buying the wrong tools, or automating the wrong things.</p>
-          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Mentorship is for the second group. You're capable. You just want the map.</p>
+          <h2 style={{marginTop: '14px'}}>The owner who wants to understand what they're building — not just have it handed to them.</h2>
+          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Some owners want someone to build it and hand it over. Others want to build it themselves, but with someone in their corner who's done it before — so they don't waste time guessing at the sequence, buying the wrong tools, or automating the wrong things first.</p>
+          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Do It With You is for the second group. You're capable. You just want the map, the accountability, and someone to call when you're not sure which move to make next.</p>
         </div>
       </section>
 
@@ -84,17 +84,18 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── TRUST ── */}
+      {/* ── PRICING ── */}
       <section className="section">
         <div className="wrap-narrow">
-          <span className="label">The fine print</span>
-          <h2 style={{marginTop: '14px'}}>Month-to-month. Plain English. No surprises.</h2>
+          <span className="label">Pricing</span>
+          <h2 style={{marginTop: '14px'}}>Only pay for what you need.</h2>
+          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Do It With You starts at <strong style={{color: 'var(--text)'}}>$399 per month</strong> — month-to-month, no long-term contract. What's included each month scales with where your business is and what you're working on. We don't have a one-size-fits-all package because businesses aren't one size.</p>
           <div className="trust-grid" style={{marginTop: '36px'}}>
             {[
-              ['No long-term contract', 'Month-to-month. Cancel any time. Everything you\'ve built comes with you — we don\'t hold work hostage.'],
-              ['No pricing posted publicly', 'Apply and we\'ll tell you what makes sense. What you need depends on where your business is right now.'],
-              ['In person for KC clients', 'Kansas City clients can meet in person. Remote clients get the same depth over video.'],
-              ['Not a course or a group program', 'This is one-on-one. You get access to someone who has actually built and run businesses — not someone who teaches from a curriculum.'],
+              ['Starts at $399 / month', 'Month-to-month. No annual commitment. Scope adjusts as your business grows and what you need changes.'],
+              ['No long-term contract', 'Cancel any time. Everything you\'ve built comes with you — we don\'t hold your work hostage.'],
+              ['In person for KC clients', 'Kansas City clients can meet in person. Remote clients get the same depth over video — no difference in quality.'],
+              ['Not a course. Not a group.', 'This is one-on-one. You get access to someone who has actually built and run businesses — not a curriculum someone designed in a weekend.'],
             ].map(([title, desc]) => (
               <div className="trust-cell" key={title}>
                 <div className="tc-check">✓</div>
@@ -108,8 +109,8 @@ export default function Page() {
       {/* ── CTA ── */}
       <section className="cta-strip">
         <div className="wrap inner">
-          <h2>Apply for mentorship.</h2>
-          <p className="sub">Tell us where your business is. We'll tell you if mentorship is the right fit or if Done For You makes more sense for your situation.</p>
+          <h2>Ready to have someone in your corner every month?</h2>
+          <p className="sub">Apply and tell us where your business is. We'll tell you if Do It With You is the right fit or if Done For You makes more sense for your situation.</p>
           <div className="actions">
             <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
             <a className="btn btn--ghost-invert" href="/done-for-you/">Compare: Done For You →</a>

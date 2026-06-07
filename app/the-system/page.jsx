@@ -30,8 +30,14 @@ export default function Page() {
               <div className="proc-month">Layer 1</div>
               <div>
                 <h3>Money Model</h3>
-                <p>Before any system or tool, we map your revenue — where it comes from, where it escapes, and what the actual high-leverage opportunity is. We look at pricing, lead flow, conversion rate, average job size, and repeat purchase behavior. Most owners have never seen all of this drawn out at once.</p>
-                <p style={{marginTop: '14px', color: 'var(--muted)'}}>Output: A clear profit map showing the top 1–3 fixes and their estimated revenue impact.</p>
+                <p>Before any system or tool, we map your revenue — where it comes from, where it leaks, and what the actual high-leverage opportunity is. We look at pricing, lead flow, conversion rate, average job size, and repeat purchase behavior. Most owners have never seen all of this drawn out at once.</p>
+                <p style={{marginTop: '16px'}}>This layer has three parts most consultants never touch:</p>
+                <ul style={{marginTop: '12px', paddingLeft: '20px', display: 'flex', flexDirection: 'column', gap: '10px', color: 'var(--muted)'}}>
+                  <li><strong style={{color: 'var(--text)'}}>Plug the leaks first.</strong> We identify every place revenue is escaping — unanswered calls, quotes that go cold, jobs that close once and never return. Fix these before spending a dollar on new leads.</li>
+                  <li><strong style={{color: 'var(--text)'}}>Build a customer acquisition engine.</strong> Once the foundation is solid, we map how new customers actually find you, where the friction is, and how to increase that flow without increasing your ad spend. Referral systems, Google presence, reactivation campaigns — whatever your business is missing.</li>
+                  <li><strong style={{color: 'var(--text)'}}>Turn one-time buyers into long-term customers.</strong> The most underused asset in any service business is the customers you already have. We build the follow-up, loyalty, and re-engagement systems that make a first job worth five times as much over three years.</li>
+                </ul>
+                <p style={{marginTop: '16px', color: 'var(--muted)'}}>Output: A written profit map with your top 1–3 fixes, estimated revenue impact per fix, and a customer lifecycle plan.</p>
               </div>
             </div>
 
@@ -90,8 +96,33 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── TIMELINE ── */}
+      {/* ── IDEAL CUSTOMERS ── */}
       <section className="section section--alt">
+        <div className="wrap">
+          <span className="label">Who sees the biggest results</span>
+          <h2 style={{marginTop: '14px'}}>The businesses that explode when you plug the leaks.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '62ch'}}>These aren't industries we picked at random. They're the business types where we've seen the largest, fastest jumps — because the profit gaps are predictable and the fixes are proven.</p>
+          <div className="three-col" style={{marginTop: '40px'}}>
+            {[
+              ['HVAC & Plumbing', 'High-ticket, high-volume, and brutally competitive on response time. Missed-call text-back alone typically recovers 8–15 jobs per month that would have gone to a competitor.'],
+              ['Roofing & Contractors', 'Long sales cycles and slow quote follow-up are the two biggest killers. Automated follow-up sequences keep leads warm for weeks without any manual effort.'],
+              ['Real Estate', 'Speed-to-lead is everything. Agents and teams that respond to inquiries in under 5 minutes close at 4× the rate of those who respond in an hour. We build that response into the system.'],
+              ['Restaurants & Food Service', 'Thin margins make every no-show and every missed review painful. Reservation reminders, review recovery, and loyalty re-engagement move the needle fast.'],
+              ['Medical & Dental Practices', 'No-show rates of 15–30% are common and devastating. Automated reminders and confirmation sequences cut that in half. Patient reactivation campaigns fill the gaps.'],
+              ['Law Firms & Professional Services', 'Intake falls through the cracks. Follow-up never happens. Automating the intake and communication workflow frees up billable hours and closes more consultations.'],
+            ].map(([title, desc]) => (
+              <div className="three-card" key={title}>
+                <h3>{title}</h3>
+                <p>{desc}</p>
+              </div>
+            ))}
+          </div>
+          <p style={{marginTop: '28px', color: 'var(--muted)', fontSize: '15px'}}>Your industry not listed? <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask anyway →</a> The same patterns show up in almost every service business.</p>
+        </div>
+      </section>
+
+      {/* ── TIMELINE ── */}
+      <section className="section">
         <div className="wrap-narrow">
           <span className="label">What to expect</span>
           <h2 style={{marginTop: '14px'}}>A typical Done-For-You engagement looks like this.</h2>

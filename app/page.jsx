@@ -63,7 +63,7 @@ export default function Page() {
             <div className="three-card">
               <div className="three-num">01</div>
               <h3>Money Model First</h3>
-              <p>Before we touch a single tool, we map your revenue — where it comes from, where it leaks, and what the highest-leverage fix actually is. Most owners have never seen this drawn out clearly.</p>
+              <p>Before we touch a single tool, we map your revenue — where it comes from, where it leaks, and what the highest-leverage fix actually is. We also map how to attract more of the right customers and build systems that turn one-time buyers into long-term ones. Most owners have never seen all of this drawn out clearly at once.</p>
             </div>
             <div className="three-card">
               <div className="three-num">02</div>
@@ -79,22 +79,38 @@ export default function Page() {
         </div>
       </section>
 
+      {/* ── WHO WE WORK WITH ── */}
+      <section className="section">
+        <div className="wrap">
+          <span className="label">Who sees the biggest results</span>
+          <h2 style={{marginTop: '14px', maxWidth: '28ch'}}>The businesses that grow fast when the leaks are plugged.</h2>
+          <div className="stat-wall" style={{marginTop: '40px'}}>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>HVAC & Plumbing</strong><div className="stat-desc">High-ticket and brutally competitive on response time. Missed-call text-back alone typically recovers 8–15 jobs per month that would have gone to a competitor.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>Roofing & Contractors</strong><div className="stat-desc">Slow quote follow-up is the biggest killer. Automated sequences keep leads warm for weeks — without anyone chasing them manually.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>Real Estate</strong><div className="stat-desc">Speed-to-lead is everything. Agents that respond in under 5 minutes close at 4× the rate of those who respond in an hour. We build that into the system.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'18px',marginBottom:'8px'}}>Medical, Dental & Legal</strong><div className="stat-desc">No-shows, cold intakes, and missed follow-up cost these businesses tens of thousands per year. Automated reminders and intake sequences cut losses fast.</div></div>
+          </div>
+          <p style={{marginTop: '24px', color: 'var(--muted)', fontSize: '15px'}}>Restaurants, salons, landscapers, gyms, insurance agents — <a href="/industries/" style={{color: 'var(--c-e)', fontWeight: '600'}}>see all industries we work with →</a></p>
+        </div>
+      </section>
+
       {/* ── OFFER GRID ── */}
       <section className="section">
         <div className="wrap">
           <span className="label">How we work together</span>
-          <h2 style={{marginTop: '14px'}}>Three ways in. No public pricing.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '58ch'}}>Every engagement starts with an application conversation. We don't post pricing because the right engagement depends on where your business is and what it actually needs.</p>
+          <h2 style={{marginTop: '14px'}}>Only pay for what you need.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>No one-size-fits-all packages. Every business is different — some need it built for them, some want to learn as they go, and some just need someone in their corner each month. We have an option for each.</p>
           <div className="offer-grid" style={{marginTop: '44px'}}>
             <a className="offer-card offer-card--featured" href="/done-for-you/">
               <span className="tag">Most popular</span>
               <h3>Done For You</h3>
-              <p>We build and install your entire system. You approve. We configure, test, and hand it off running. Best for operators who want the result without doing the work themselves.</p>
+              <p>We build and install your entire system — money model audit, SOPs, automations, follow-up sequences — and hand it off running. Best for operators who want the result without doing the build work themselves.</p>
               <span className="more">See what's included →</span>
             </a>
             <a className="offer-card" href="/mentorship/">
-              <h3>Mentorship</h3>
-              <p>Monthly coaching and ongoing system support. We work through your business together. Best for owners who want to understand what they're building, not just have it handed to them.</p>
+              <h3>Do It With You</h3>
+              <p>We walk alongside you every month — guiding decisions, reviewing your builds, keeping you in the right sequence. You do the work. We make sure it's the right work.</p>
+              <p style={{marginTop: '12px', fontFamily: 'var(--mono)', fontSize: '13px', fontWeight: '700', color: 'var(--c-e)'}}>Starts at $399 / month</p>
               <span className="more">Learn more →</span>
             </a>
             <a className="offer-card offer-card--giveaway" href="/giveaway/">
