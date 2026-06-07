@@ -1,6 +1,6 @@
 export const metadata = {
-  title: 'About | S.Y.S.T.E.M. KC | Local Kansas City AI Automation Consultant',
-  description: 'S.Y.S.T.E.M. KC is a Kansas City team of automation consultants and builders, deliberately focused on local small businesses. In-person audits, plain English, no long-term contracts.',
+  title: 'About | S.Y.S.T.E.M. KC | Business Growth Strategy for Local Service Businesses',
+  description: 'S.Y.S.T.E.M. KC teaches local service business owners how to get more customers, earn more from each one, and build a business that runs without them. Built by a 20-year operator.',
 };
 
 export default function Page() {
@@ -11,8 +11,8 @@ export default function Page() {
 <header className="page-hero">
   <div className="wrap">
     <span className="label">The person behind it</span>
-    <h1>Local Kansas City AI automation <em>consultant</em>.</h1>
-    <p className="lede">S.Y.S.T.E.M. KC is a Kansas City team of consultants and builders, deliberately focused on local small businesses. We don't sell Fortune 500 dashboards to people who need a missed-call text-back — we sell working systems to people who fix furnaces, sell houses, and run dental practices.</p>
+    <h1>20 years running businesses. Built the growth playbook we wished existed.</h1>
+    <p className="lede">S.Y.S.T.E.M. KC teaches local service business owners how to get more customers, earn more from each one, and build a business that doesn't fall apart when they step back. The tools and automations are how we make it run — the growth strategy is what we actually teach.</p>
   </div>
 </header>
 
@@ -23,47 +23,69 @@ export default function Page() {
         <img src="/assets/founder-portrait.png" alt="Jason Dillon, founder of S.Y.S.T.E.M. KC" style={{position: 'absolute', inset: '0', width: '100%', height: '100%', objectFit: 'cover'}} />
       </div>
       <div className="prose">
-        <p style={{fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: '22px', lineHeight: '1.45', color: 'var(--ink)', marginBottom: '32px'}}>"I started S.Y.S.T.E.M. KC because I kept watching local owners I respected — friends, family, the guy who fixed my furnace — drown in admin work that genuinely shouldn't exist anymore."</p>
+        <p style={{fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: '22px', lineHeight: '1.45', color: 'var(--ink)', marginBottom: '32px'}}>"I built this because I kept watching capable business owners grind themselves into the ground — not because they lacked work ethic, but because nobody had ever shown them the actual playbook for growing a local service business."</p>
         <h2>The short version</h2>
-        <p>I'm <strong>Jason Dillon</strong> — a Kansas City lifer and the founder of S.Y.S.T.E.M. KC. After years inside the small-business world, I kept seeing the same pattern: owners working 60-hour weeks doing tasks AI handles for $40/month. The gap between what's possible and what's actually installed in most KC shops is enormous — and it's growing.</p>
-        <p>So we built a consulting practice with one focus: <strong>walk into a Kansas City small business, find the leaks, and fix them.</strong> In person. Plain English. No twelve-month contracts.</p>
-        <h2>Why local</h2>
-        <p>Every audit is in person. That's not a marketing line — it's a deliberate constraint. Remote agencies and offshore "ops teams" can't see your day-to-day. They can't watch your tech disappear into a crawlspace at 10am and miss the call from a homeowner with a burst pipe. We can. We've sat in the truck.</p>
-        <p>Our radius is the Kansas City region: the full metro, Topeka, St. Joseph, Warrensburg, Lawrence, and the towns between. If we can't be at your door within 90 minutes, we're not a fit — and we'll happily refer you to someone who is.</p>
+        <p>I'm <strong>Jason Dillon</strong> — founder of S.Y.S.T.E.M. KC and a 20-year operator who still owns and runs a multi-location service company. I'm not a consultant who figured this out in a classroom. I've run the payroll, answered the missed calls, lost the quote because I followed up too slow, and watched good customers disappear because I had no re-engagement system. I know exactly what's costing you money — because it cost me money first.</p>
+        <p>I built S.Y.S.T.E.M. KC because the consulting practice I needed didn't exist. Everything I found was either software salespeople dressed as consultants, or online courses built by people who'd never actually run a service business. I wanted someone who would walk into my operation, look at my actual numbers, and tell me what to fix first — in plain English, without a twelve-month contract.</p>
+        <h2>What we actually teach</h2>
+        <p>The name is the mission: <strong>Save Yourself Stress, Time, Energy, and Money.</strong> We do that by teaching three things, in order:</p>
+        <ul>
+          <li><strong>How to get more customers</strong> — local visibility, reviews, referrals, marketing that converts, and customer acquisition systems that don't require more ad spend every month.</li>
+          <li><strong>How to make more from each one</strong> — pricing strategy, retention, repeat visits, upsells, and the customer lifetime value math that changes how you think about every job you close.</li>
+          <li><strong>How to run it without you</strong> — the automations, SOPs, and workflows that execute the first two without you doing it manually every day.</li>
+        </ul>
+        <p>Most consultants start with the third item. We start with the first.</p>
         <h2>How we work</h2>
         <p>Three principles, every engagement:</p>
         <ul>
           <li><strong>Plain English over jargon.</strong> If we can't explain it without acronyms, we don't sell it.</li>
-          <li><strong>Yours either way.</strong> Workflows, SOPs, copy, data, and walkthroughs come with you — even if you fire us tomorrow.</li>
-          <li><strong>Month-to-month.</strong> No twelve-month lock-ins, no proprietary black boxes, no contracts you can't get out of.</li>
+          <li><strong>Yours either way.</strong> Every playbook, SOP, workflow, and automation we build belongs to you from day one. Leave any time — it all comes with you.</li>
+          <li><strong>Month-to-month.</strong> No annual lock-ins. No proprietary black boxes. No contracts you can't exit.</li>
         </ul>
         <h2>The tools we use</h2>
-        <p>We're tool-agnostic. The platform that's right for your business depends on what you're trying to fix. A 3-truck HVAC shop and a 40-employee law firm don't need the same stack. What we promise: nothing we install requires you to keep paying <em>us</em>. On a retainer, your subscriptions and most AI usage are bundled into one monthly bill. Leave the retainer, and we transfer every account into your name.</p>
+        <p>We're tool-agnostic. The right stack depends on your business, your team, and what you're actually trying to fix. We don't white-label software. We don't make money when you buy tools. We recommend what works — and what we've tested ourselves.</p>
       </div>
     </div>
   </div>
 </section>
 
 <section className="section section--alt">
-  <div className="wrap">
-    <div className="section-head">
-      <div><span className="label">By the numbers</span><h2 style={{marginTop: '14px'}}>Where we are today.</h2></div>
-    </div>
-    <div className="stats-row" style={{gridTemplateColumns: 'repeat(3,1fr)'}}>
-      <div className="stat-cell"><div className="v">100<span className="unit">%</span></div><div className="k">In-person · local</div></div>
-      <div className="stat-cell"><div className="v">0</div><div className="k">Long-term contracts</div></div>
-      <div className="stat-cell"><div className="v">90<span className="unit">min</span></div><div className="k">Max drive radius</div></div>
+  <div className="wrap-narrow">
+    <span className="label">Why the money model comes first</span>
+    <h2 style={{marginTop: '14px'}}>Marketing is a force multiplier — but only if what it's multiplying is solid.</h2>
+    <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>The biggest mistake local service businesses make is spending money on marketing before fixing what's underneath. If your offer is unclear, your follow-up is slow, your pricing is off, and your referral system doesn't exist — putting more leads into that funnel just produces more wasted opportunity at a higher cost.</p>
+    <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Fix the model first. Then marketing stops being an expense and starts being a multiplier. A business with a strong offer, a referral engine, and an optimized pricing model can get 3–5× the result from the same ad budget as one that hasn't done that work.</p>
+    <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>That's the sequence we teach. That's why we start where we do.</p>
+  </div>
+</section>
+
+<section className="section">
+  <div className="wrap-narrow">
+    <span className="label">By the numbers</span>
+    <h2 style={{marginTop: '14px'}}>What we stand behind.</h2>
+    <div className="trust-grid" style={{marginTop: '36px'}}>
+      {[
+        ['Growth strategy first', 'We map how to get more customers and earn more from each one before we touch a single tool.'],
+        ['20 years operating', 'Jason still owns and operates a multi-location service business. This isn\'t theory — it\'s a tested playbook.'],
+        ['Month-to-month', 'No long-term contracts. No lock-in. You own everything we build from day one.'],
+        ['Plain English', 'No jargon. No hype. One operator talking to another about what actually moves profit.'],
+      ].map(([title, desc]) => (
+        <div className="trust-cell" key={title}>
+          <div className="tc-check">✓</div>
+          <div><strong>{title}</strong><p>{desc}</p></div>
+        </div>
+      ))}
     </div>
   </div>
 </section>
 
 <section className="cta-strip">
   <div className="wrap inner">
-    <h2>Let's find your <em>leaks</em>.</h2>
-    <p className="sub">20 minutes on the phone. We map the top 2–3 things bleeding hours out of your week, and you decide if you want help fixing them. There is nothing to buy on this call.</p>
+    <h2>Ready to see the playbook for your business?</h2>
+    <p className="sub">First conversation is free. We look at your business and tell you exactly where the highest-leverage growth move is — before you spend anything.</p>
     <div className="actions">
-      <a className="btn btn--invert" href="/contact/">Book a free 20-min call <span className="arrow">→</span></a>
-      <a className="btn btn--ghost-invert" href="/services/">See what we do</a>
+      <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
+      <a className="btn btn--ghost-invert" href="/the-system/">See the full playbook</a>
     </div>
   </div>
 </section>

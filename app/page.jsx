@@ -14,7 +14,7 @@ export default function Page() {
       {/* ── HERO ── */}
       <section className="nat-hero">
         <div className="wrap">
-          <span className="label">Local service businesses · Growth strategy · Kansas City</span>
+          <span className="label">Local service businesses · Growth strategy · Profit first</span>
           <h1 className="nat-h1">More customers. More money per customer. Profits that don't require more hours.</h1>
           <p className="nat-lede">We teach local service business owners the exact playbook for attracting more customers, getting more out of every one you already have, and building a business that doesn't fall apart when you step away.</p>
           <p className="nat-sub">The tools and automations? Those come last — and they're just how we make the whole thing run without you doing it manually every day.</p>
@@ -49,7 +49,13 @@ export default function Page() {
             <div className="stat-cell"><div className="stat-num">78%</div><div className="stat-desc">of buyers choose whoever responds first — not who does the best work or has the best reviews<sup>3</sup></div></div>
             <div className="stat-cell"><div className="stat-num">85%</div><div className="stat-desc">of happy customers will never refer anyone unless you have a system that asks them to<sup>4</sup></div></div>
           </div>
-          <p className="stat-sources">Sources: <sup>1</sup>Invoca 2023 · <sup>2</sup>Harvard Business Review · <sup>3</sup>Velocify · <sup>4</sup>Clutch research</p>
+          <div className="stat-wall" style={{marginTop: '24px', borderTop: '1px solid var(--rule)', paddingTop: '24px'}}>
+            <div className="stat-cell"><div className="stat-num">5%</div><div className="stat-desc">more customer retention increases profits by 25–95% — retention is the most underused growth lever in service businesses<sup>5</sup></div></div>
+            <div className="stat-cell"><div className="stat-num">200%</div><div className="stat-desc">more lifetime spend from referred customers vs. non-referred — your referral program is your highest-ROI marketing channel<sup>6</sup></div></div>
+            <div className="stat-cell"><div className="stat-num">3–5×</div><div className="stat-desc">higher ad conversion when your offer is clear and differentiated — fixing the offer makes every marketing dollar go further<sup>7</sup></div></div>
+            <div className="stat-cell"><div className="stat-num">5–9%</div><div className="stat-desc">revenue increase per additional star on Google — reviews aren't a vanity metric, they're a revenue driver<sup>8</sup></div></div>
+          </div>
+          <p className="stat-sources">Sources: <sup>1</sup>Invoca 2023 · <sup>2</sup>Harvard Business Review · <sup>3</sup>Velocify · <sup>4</sup>Clutch research · <sup>5</sup>Bain &amp; Company · <sup>6</sup>McKinsey · <sup>7</sup>CXL Institute · <sup>8</sup>Harvard Business School</p>
         </div>
       </section>
 

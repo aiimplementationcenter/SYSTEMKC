@@ -115,8 +115,8 @@ export default function Page() {
             {[
               ['You own it all', 'Every automation, SOP, workflow, and data asset transfers to you completely. We don\'t hold anything in a proprietary system.'],
               ['No long-term contracts', 'Month-to-month for ongoing support. If you leave, the system stays with you.'],
-              ['In person for KC clients', 'Kansas City businesses get on-site visits as part of the audit. We come to you — we see how the business actually runs.'],
-              ['No pricing posted publicly', 'What you need depends on your business. Apply and we\'ll tell you what makes sense before you spend a dollar.'],
+              ['In person when it matters', 'Where geography allows, we come to you — we see how your business actually runs, not how you describe it. Remote clients get the same depth over video.'],
+              ['Only pay for what you need', 'What you need depends on your business. Apply and we\'ll tell you what makes sense before you spend a dollar.'],
             ].map(([title, desc]) => (
               <div className="trust-cell" key={title}>
                 <div className="tc-check">✓</div>

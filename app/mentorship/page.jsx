@@ -94,7 +94,7 @@ export default function Page() {
             {[
               ['Starts at $399 / month', 'Month-to-month. No annual commitment. Scope adjusts as your business grows and what you need changes.'],
               ['No long-term contract', 'Cancel any time. Everything you\'ve built comes with you — we don\'t hold your work hostage.'],
-              ['In person for KC clients', 'Kansas City clients can meet in person. Remote clients get the same depth over video — no difference in quality.'],
+              ['In person when geography allows', 'Where we can meet in person, we do. Remote clients get the same depth over video — the work is identical.'],
               ['Not a course. Not a group.', 'This is one-on-one. You get access to someone who has actually built and run businesses — not a curriculum someone designed in a weekend.'],
             ].map(([title, desc]) => (
               <div className="trust-cell" key={title}>
