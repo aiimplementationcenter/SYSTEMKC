@@ -1,8 +1,8 @@
 import GeoBanner from './components/GeoBanner';
 
 export const metadata = {
-  title: 'S.Y.S.T.E.M. KC — Build a More Profitable Business',
-  description: 'We rebuild how your service business makes money, then install the systems and workflows that run it without you.',
+  title: 'S.Y.S.T.E.M. KC — More Customers. More Profit. Less Guessing.',
+  description: 'We teach local service businesses how to get more customers, earn more from each one, and build the kind of profit that doesn\'t require working more hours.',
 };
 
 export default function Page() {
@@ -14,15 +14,15 @@ export default function Page() {
       {/* ── HERO ── */}
       <section className="nat-hero">
         <div className="wrap">
-          <span className="label">Business systems · Profitability · Kansas City</span>
-          <h1 className="nat-h1">We rebuild how your business makes money. Then we install the systems that run it.</h1>
-          <p className="nat-lede">Most service businesses aren't losing to better competition. They're losing to profit gaps nobody has mapped, missed calls nobody followed up, and operations that still depend entirely on the owner.</p>
-          <p className="nat-sub">We come in, find the leaks, and fix them — in person or remotely, depending on where you are.</p>
+          <span className="label">Local service businesses · Growth strategy · Kansas City</span>
+          <h1 className="nat-h1">More customers. More money per customer. Profits that don't require more hours.</h1>
+          <p className="nat-lede">We teach local service business owners the exact playbook for attracting more customers, getting more out of every one you already have, and building a business that doesn't fall apart when you step away.</p>
+          <p className="nat-sub">The tools and automations? Those come last — and they're just how we make the whole thing run without you doing it manually every day.</p>
           <div className="actions">
             <a className="btn btn--primary" href="/apply/">Apply to work together <span className="arrow">→</span></a>
-            <a className="btn btn--ghost" href="/the-system/">How It Works</a>
+            <a className="btn btn--ghost" href="/the-system/">See the full playbook</a>
           </div>
-          <p className="nat-trust">Built by a 20-year operator for operators who are tired of guessing.</p>
+          <p className="nat-trust">Built by a 20-year operator who still runs a multi-location service business today.</p>
         </div>
       </section>
 
@@ -30,50 +30,53 @@ export default function Page() {
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">Who you're talking to</span>
-          <h2 style={{marginTop: '14px'}}>Not a consultant. An operator who builds.</h2>
+          <h2 style={{marginTop: '14px'}}>This isn't taught from a course. It's run from a business.</h2>
           <blockquote className="op-quote">
-            "I've spent 20 years building businesses, and I still own and operate a multi-location service company across the Midwest. I don't teach this from a course I bought — I run it. Every system I show you, I use."
+            "I've spent 20 years building businesses — and I still own and operate a multi-location service company across the Midwest. Every growth strategy I teach, I use. Every system I recommend, I've tested. I'm not a consultant who figured this out in a classroom."
           </blockquote>
-          <p style={{marginTop: '24px', color: 'var(--muted)', fontSize: '17px', lineHeight: '1.7'}}>S.Y.S.T.E.M. KC started because I kept watching good business owners lose money to fixable problems — and I couldn't find anyone explaining the real cause. So I built the consulting practice I wished existed.</p>
+          <p style={{marginTop: '24px', color: 'var(--muted)', fontSize: '17px', lineHeight: '1.7'}}>S.Y.S.T.E.M. KC exists because I kept watching capable business owners grind themselves into the ground — not because they lacked work ethic, but because nobody had ever shown them the actual playbook for growing a local service business. So I wrote it.</p>
         </div>
       </section>
 
-      {/* ── STAT WALL ── */}
+      {/* ── THE REAL PROBLEM ── */}
       <section className="section">
         <div className="wrap">
-          <span className="label">Where the money is hiding</span>
-          <h2 style={{marginTop: '14px', maxWidth: '24ch'}}>The profit you're leaving behind isn't a mystery. It's a pattern.</h2>
-          <div className="stat-wall">
+          <span className="label">The real problem</span>
+          <h2 style={{marginTop: '14px', maxWidth: '26ch'}}>You're working hard. The problem is you're missing the playbook.</h2>
+          <div className="stat-wall" style={{marginTop: '40px'}}>
             <div className="stat-cell"><div className="stat-num">62%</div><div className="stat-desc">of calls to local service businesses go unanswered — each one a job that went somewhere else<sup>1</sup></div></div>
-            <div className="stat-cell"><div className="stat-num">&lt;5 min</div><div className="stat-desc">response time makes you 21× more likely to close — most businesses take hours or days<sup>2</sup></div></div>
-            <div className="stat-cell"><div className="stat-num">78%</div><div className="stat-desc">of buyers choose whoever responds first — not who does the best work<sup>3</sup></div></div>
-            <div className="stat-cell"><div className="stat-num">85%</div><div className="stat-desc">of people who hit voicemail never call back — they just call the next number<sup>4</sup></div></div>
+            <div className="stat-cell"><div className="stat-num">&lt;5 min</div><div className="stat-desc">response time makes you 21× more likely to close — most owners don't have a system for this<sup>2</sup></div></div>
+            <div className="stat-cell"><div className="stat-num">78%</div><div className="stat-desc">of buyers choose whoever responds first — not who does the best work or has the best reviews<sup>3</sup></div></div>
+            <div className="stat-cell"><div className="stat-num">85%</div><div className="stat-desc">of happy customers will never refer anyone unless you have a system that asks them to<sup>4</sup></div></div>
           </div>
           <p className="stat-sources">Sources: <sup>1</sup>Invoca 2023 · <sup>2</sup>Harvard Business Review · <sup>3</sup>Velocify · <sup>4</sup>Clutch research</p>
         </div>
       </section>
 
-      {/* ── HOW IT WORKS / 3 LAYERS ── */}
+      {/* ── WHAT WE ACTUALLY TEACH ── */}
       <section className="section section--alt">
         <div className="wrap">
-          <span className="label">The approach</span>
-          <h2 style={{marginTop: '14px'}}>Three layers. In order. No shortcuts.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>Most businesses try to automate before they've fixed the revenue model. That's why the automation doesn't help. We go in the right sequence.</p>
+          <span className="label">What we teach</span>
+          <h2 style={{marginTop: '14px'}}>Three things. In the right order.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>Most consultants sell you software. We teach you a growth strategy — then show you which tools make it run without you doing everything by hand.</p>
           <div className="three-col" style={{marginTop: '44px'}}>
             <div className="three-card">
               <div className="three-num">01</div>
-              <h3>Money Model First</h3>
-              <p>Before we touch a single tool, we map your revenue — where it comes from, where it leaks, and what the highest-leverage fix actually is. We also map how to attract more of the right customers and build systems that turn one-time buyers into long-term ones. Most owners have never seen all of this drawn out clearly at once.</p>
+              <h3>How to Get More Customers</h3>
+              <p>Local visibility, Google presence, review generation, referral programs, paid and organic marketing that actually works for service businesses. We map exactly where your customers come from today — and build the strategy to multiply that flow.</p>
+              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--muted)'}}>No guessing. No wasting money on ads before the foundation is right.</p>
             </div>
             <div className="three-card">
               <div className="three-num">02</div>
-              <h3>Operations Second</h3>
-              <p>Once we know what to protect and grow, we document and tighten the workflows that deliver it. SOPs. Checklists. Communication standards. The boring stuff that makes everything else work.</p>
+              <h3>How to Make More From Each One</h3>
+              <p>Pricing strategy, upsells, repeat visits, customer lifetime value, and retention. Most service businesses are leaving 30–50% of their potential revenue on the table from customers they've already won. We show you exactly where and how to capture it.</p>
+              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--muted)'}}>The customer you already have is the cheapest sale you'll ever make.</p>
             </div>
             <div className="three-card">
               <div className="three-num">03</div>
-              <h3>Automation Third</h3>
-              <p>Now automation makes sense — because we know exactly what to automate and why. Missed-call text-back, follow-up sequences, review requests, scheduling. Tools that earn their keep.</p>
+              <h3>How to Run It Without You</h3>
+              <p>Once the growth strategy is clear, we install the tools and automations that execute it on autopilot — missed-call text-back, follow-up sequences, review requests, rebooking campaigns. This is the last step, not the first.</p>
+              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--muted)'}}>Automation without strategy is just expensive busywork.</p>
             </div>
           </div>
         </div>
@@ -82,62 +85,50 @@ export default function Page() {
       {/* ── WHO WE WORK WITH ── */}
       <section className="section">
         <div className="wrap">
-          <span className="label">Who sees the biggest results</span>
-          <h2 style={{marginTop: '14px', maxWidth: '28ch'}}>If you offer a local service, this works for you.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>The same profit gaps — missed calls, slow follow-up, no repeat-customer system — show up in every local service business. The fix is the same too. Here's where we see it most:</p>
+          <span className="label">Who this works for</span>
+          <h2 style={{marginTop: '14px', maxWidth: '28ch'}}>Any local service business ready to grow.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>The growth playbook is the same whether you cut hair, fix furnaces, or represent clients in court. Here's where we see the biggest results:</p>
           <div className="stat-wall" style={{marginTop: '40px', gridTemplateColumns: 'repeat(4, 1fr)'}}>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>HVAC & Plumbing</strong><div className="stat-desc">Missed-call text-back alone recovers 8–15 jobs/month that would have gone to a competitor.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Roofing & Contractors</strong><div className="stat-desc">Automated quote follow-up keeps leads warm for weeks without anyone chasing them.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Real Estate</strong><div className="stat-desc">Respond in under 5 minutes and you close at 4× the rate. We build that speed into the system.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Medical & Dental</strong><div className="stat-desc">Automated reminders cut no-show rates in half. Reactivation campaigns fill the gaps.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Salons & Nail Salons</strong><div className="stat-desc">Rebooking sequences, no-show follow-up, and review requests turn one-time visits into regulars.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Barber Shops</strong><div className="stat-desc">Appointment reminders, waitlist automation, and loyalty campaigns keep chairs full without extra hustle.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Spas & Massage Therapists</strong><div className="stat-desc">Repeat visits are the whole business model. Automated re-engagement brings clients back before they forget you exist.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Hair Stylists & Studios</strong><div className="stat-desc">Client retention systems and referral automation turn every happy client into a referral machine.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>HVAC & Plumbing</strong><div className="stat-desc">Faster response + better referral systems + review automation = a full schedule without more ad spend.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Roofing & Contractors</strong><div className="stat-desc">Better follow-up, smarter quoting, and a referral engine that turns every finished job into the next one.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Real Estate</strong><div className="stat-desc">Speed-to-lead strategy, past-client reactivation, and a referral system that makes your database a growth engine.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Medical & Dental</strong><div className="stat-desc">Cut no-shows, fill cancellations, and build the patient communication system that keeps people coming back.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Salons & Nail Salons</strong><div className="stat-desc">Rebooking strategy, review generation, and a referral program that turns regulars into your best marketers.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Barber Shops</strong><div className="stat-desc">Loyalty strategy, automated reminders, and the marketing systems that keep chairs full on slow days.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Spas & Massage Therapists</strong><div className="stat-desc">Repeat-visit strategy is everything here. We build the re-engagement system that keeps your books full month after month.</div></div>
+            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Hair Stylists & Studios</strong><div className="stat-desc">Client retention + referral programs + local visibility = a full book without paying for every new client.</div></div>
           </div>
-          <p style={{marginTop: '24px', padding: '16px 20px', background: 'var(--bg-alt, var(--paper-2))', borderRadius: '8px', color: 'var(--muted)', fontSize: '15px', lineHeight: '1.7'}}>
-            Also: restaurants, landscapers, pest control, insurance agents, gyms, law firms, veterinarians, auto repair, cleaning services — <strong style={{color: 'var(--text)'}}>if you sell a local service, the system works.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask us about your industry →</a>
+          <p style={{marginTop: '24px', padding: '16px 20px', background: 'var(--paper-2)', borderRadius: '8px', color: 'var(--muted)', fontSize: '15px', lineHeight: '1.7'}}>
+            Also: restaurants, landscapers, pest control, insurance agents, gyms, law firms, veterinarians, auto repair, cleaning services — <strong style={{color: 'var(--text)'}}>if you sell a local service, the playbook works.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask us about your industry →</a>
           </p>
         </div>
       </section>
 
       {/* ── OFFER GRID ── */}
-      <section className="section">
+      <section className="section section--alt">
         <div className="wrap">
           <span className="label">How we work together</span>
           <h2 style={{marginTop: '14px'}}>Only pay for what you need.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>No one-size-fits-all packages. Every business is different — some need it built for them, some want to learn as they go, and some just need someone in their corner each month. We have an option for each.</p>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>No one-size-fits-all packages. Some owners want it built for them. Some want to learn as they go. Some just need someone in their corner each month. We have an option for each.</p>
           <div className="offer-grid" style={{marginTop: '44px'}}>
             <a className="offer-card offer-card--featured" href="/done-for-you/">
               <span className="tag">Most popular</span>
               <h3>Done For You</h3>
-              <p>We build and install your entire system — money model audit, SOPs, automations, follow-up sequences — and hand it off running. Best for operators who want the result without doing the build work themselves.</p>
+              <p>We build your entire growth and operations system — strategy, SOPs, and all the automations — then hand it off running. Best for owners who want the result without doing the build work themselves.</p>
               <span className="more">See what's included →</span>
             </a>
             <a className="offer-card" href="/mentorship/">
               <h3>Do It With You</h3>
-              <p>We walk alongside you every month — guiding decisions, reviewing your builds, keeping you in the right sequence. You do the work. We make sure it's the right work.</p>
+              <p>We coach you through the playbook every month — growth strategy, customer retention, marketing, operations, and the tools that tie it together. You build it. We make sure you build the right things.</p>
               <p style={{marginTop: '12px', fontFamily: 'var(--mono)', fontSize: '13px', fontWeight: '700', color: 'var(--c-e)'}}>Starts at $399 / month</p>
               <span className="more">Learn more →</span>
             </a>
             <a className="offer-card offer-card--giveaway" href="/giveaway/">
               <span className="tag">Free</span>
               <h3>The Scholarship</h3>
-              <p>The full Done-For-You program, awarded each cycle to the business owner who demonstrates the greatest need. No purchase necessary. Apply and explain your situation.</p>
+              <p>The full Done-For-You program, awarded each cycle to the business owner who demonstrates the greatest need. No purchase necessary. Apply and tell us your situation.</p>
               <span className="more">Apply for the scholarship →</span>
             </a>
-          </div>
-        </div>
-      </section>
-
-      {/* ── ACRONYM ── */}
-      <section className="section section--alt">
-        <div className="wrap-narrow">
-          <span className="label">What S.Y.S.T.E.M. stands for</span>
-          <h2 style={{marginTop: '14px'}}>Save Yourself Stress, Time, Energy, and Money.</h2>
-          <p style={{marginTop: '20px', color: 'var(--muted)', fontSize: '17px', lineHeight: '1.8'}}>That's the only thing we care about measuring. If the work we do together doesn't save you at least one of those four things — and ideally all four — it wasn't worth doing.</p>
-          <div className="actions" style={{marginTop: '32px'}}>
-            <a className="btn btn--primary" href="/the-system/">How the system works →</a>
           </div>
         </div>
       </section>
@@ -146,13 +137,13 @@ export default function Page() {
       <section className="section">
         <div className="wrap-narrow">
           <span className="label">How we work</span>
-          <h2 style={{marginTop: '14px'}}>Local. Honest. You own everything.</h2>
+          <h2 style={{marginTop: '14px'}}>Honest. Practical. You own everything.</h2>
           <div className="trust-grid" style={{marginTop: '36px'}}>
             {[
-              ['No long-term contracts', 'Month-to-month. If you leave, everything we built transfers to you — tools, SOPs, workflows, all of it.'],
-              ['You own all of it', 'Every automation, document, and data asset is yours from day one. We don\'t hold anything hostage.'],
-              ['In person when it matters', 'Kansas City clients get on-site visits. Remote clients get deep-dive video calls. Either way, we see your actual operation.'],
-              ['Plain English', 'No jargon. No AI hype. One business owner talking to another about what actually works.'],
+              ['Growth strategy first', 'We don\'t touch tools until we know exactly what you\'re trying to grow and why. Strategy drives everything.'],
+              ['You own all of it', 'Every playbook, workflow, automation, and document we build is yours — no lock-in, no platform dependency.'],
+              ['No long-term contracts', 'Month-to-month. If you leave, everything transfers to you and keeps running.'],
+              ['Plain English', 'No jargon. No AI hype. One business owner talking to another about what actually produces results.'],
             ].map(([title, desc]) => (
               <div className="trust-cell" key={title}>
                 <div className="tc-check">✓</div>
@@ -166,11 +157,11 @@ export default function Page() {
       {/* ── FINAL CTA ── */}
       <section className="cta-strip">
         <div className="wrap inner">
-          <h2>Ready to find out what your business is leaving on the table?</h2>
-          <p className="sub">Apply to work with us or explore how the system works first. First conversation is always free.</p>
+          <h2>Ready to stop guessing and start growing?</h2>
+          <p className="sub">Apply to work with us. First conversation is free — we look at your business and tell you exactly what the highest-leverage move is before you spend a dollar.</p>
           <div className="actions">
             <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
-            <a className="btn btn--ghost-invert" href="/the-system/">How It Works</a>
+            <a className="btn btn--ghost-invert" href="/the-system/">See the full playbook</a>
             <a className="btn btn--ghost-invert" href="/giveaway/">Enter the Scholarship →</a>
           </div>
         </div>
