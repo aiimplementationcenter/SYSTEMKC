@@ -148,7 +148,7 @@ export default function Page() {
           <div className="trust-grid" style={{marginTop: '36px'}}>
             {[
               ['Growth strategy first', 'We don\'t touch tools until we know exactly what you\'re trying to grow and why. Strategy drives everything.'],
-              ['You own all of it', 'Every playbook, workflow, automation, and document we build is yours — no lock-in, no platform dependency.'],
+              ['You own all of it', 'Every playbook, workflow, automation, and document we build is yours — you stay in control of everything we configure together.'],
               ['No long-term contracts', 'Month-to-month. If you leave, everything transfers to you and keeps running.'],
               ['Plain English', 'No jargon. No AI hype. One business owner talking to another about what actually produces results.'],
             ].map(([title, desc]) => (

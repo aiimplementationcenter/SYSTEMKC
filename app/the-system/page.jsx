@@ -74,7 +74,7 @@ export default function Page() {
                   <li><strong>Referral system automation.</strong> Your referral program runs itself — tracking, rewarding, and prompting without manual overhead.</li>
                   <li><strong>SOPs and documented workflows.</strong> The business doesn't run on you anymore. It runs on documented processes your team can follow without you narrating every step.</li>
                 </ul>
-                <p style={{marginTop: '16px', color: 'var(--muted)', fontSize: '15px', fontStyle: 'italic'}}>Output: Running automations and documented workflows connected to your existing tools. You own everything — no proprietary platform.</p>
+                <p style={{marginTop: '16px', color: 'var(--muted)', fontSize: '15px', fontStyle: 'italic'}}>Output: Running automations and documented workflows — built on tools that fit your business, configured so you own and control everything.</p>
               </div>
             </div>
 
@@ -82,13 +82,13 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── WHAT THIS IS NOT ── */}
+      {/* ── HOW TOOLS FIT ── */}
       <section className="section section--alt">
         <div className="wrap-narrow">
-          <span className="label">What this is not</span>
-          <h2 style={{marginTop: '14px'}}>We are not selling you software.</h2>
-          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>We don't have a platform you subscribe to. We don't white-label tools and resell them. We don't make money when you buy software. We teach you the growth strategy, then help you install it using whatever tools make sense for your business — most of which you may already have or can get for nearly nothing.</p>
-          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Everything we build, you own. If you stop working with us tomorrow, the playbook stays with you, the automations keep running, and the strategy is yours to execute. That's the only deal we offer.</p>
+          <span className="label">How tools fit in</span>
+          <h2 style={{marginTop: '14px'}}>We start with what you already have.</h2>
+          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Before recommending anything new, we map what you're already using — your CRM, your scheduling software, your phone system, whatever's already in place. Most of the time we can build a significant amount of the strategy on top of tools you already pay for. Where gaps exist, we help you find and set up the right addition for your situation.</p>
+          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>The goal is the right tool for your business — not the most tools, not the fanciest stack. Everything we configure and build stays with you regardless of which tools we end up using.</p>
         </div>
       </section>
 

@@ -113,7 +113,7 @@ export default function Page() {
           <h2 style={{marginTop: '14px'}}>No contracts. No lock-in. You own everything.</h2>
           <div className="trust-grid" style={{marginTop: '36px'}}>
             {[
-              ['You own it all', 'Every automation, SOP, workflow, and data asset transfers to you completely. We don\'t hold anything in a proprietary system.'],
+              ['You own it all', 'Every automation, SOP, workflow, and data asset transfers to you completely. What we build together stays with you.'],
               ['No long-term contracts', 'Month-to-month for ongoing support. If you leave, the system stays with you.'],
               ['In person when it matters', 'Where geography allows, we come to you — we see how your business actually runs, not how you describe it. Remote clients get the same depth over video.'],
               ['Only pay for what you need', 'What you need depends on your business. Apply and we\'ll tell you what makes sense before you spend a dollar.'],

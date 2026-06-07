@@ -43,7 +43,7 @@ export default function Page() {
           <li><strong>Month-to-month.</strong> No annual lock-ins. No proprietary black boxes. No contracts you can't exit.</li>
         </ul>
         <h2>The tools we use</h2>
-        <p>We're tool-agnostic. The right stack depends on your business, your team, and what you're actually trying to fix. We don't white-label software. We don't make money when you buy tools. We recommend what works — and what we've tested ourselves.</p>
+        <p>We start with what you already have. Before recommending anything new, we map your existing stack and find how much we can build on top of it. Where you need something new, we help you choose and configure it for your specific operation. The goal is always the right tool for your business — not the most impressive one.</p>
       </div>
     </div>
   </div>
