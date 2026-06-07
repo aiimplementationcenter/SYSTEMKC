@@ -2,7 +2,7 @@
 import { useState } from 'react';
 import ReferralShare from './ReferralShare';
 
-const FORMSPREE_ID = process.env.NEXT_PUBLIC_GIVEAWAY_FORMSPREE_ID || 'xdajgpod';
+const FORMSPREE_ID = process.env.NEXT_PUBLIC_GIVEAWAY_FORMSPREE_ID || 'mykaelwa';
 
 // Deterministic referral code from email — same email always gets same code, no storage needed
 function codeFromEmail(email) {

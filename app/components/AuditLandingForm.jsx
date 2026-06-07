@@ -9,7 +9,7 @@ export default function AuditLandingForm() {
     e.preventDefault();
     setStatus('submitting');
     try {
-      const res = await fetch('https://formspree.io/f/xdajgpod', {
+      const res = await fetch('https://formspree.io/f/mykaelwa', {
         method: 'POST',
         body: new FormData(e.currentTarget),
         headers: { Accept: 'application/json' },
