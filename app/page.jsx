@@ -15,8 +15,8 @@ export default function Page() {
       <section className="nat-hero nat-hero--gradient">
         <div className="wrap">
           <span className="label">The 60-Day Profit Sprint</span>
-          <h1 className="nat-h1">Fire your agency. Add $20,000 in new revenue in 60 days. Guaranteed.</h1>
-          <p className="nat-lede">We teach local service business owners live, 1-on-1 — how to fix their money model, explode their customer base, and build a business that doesn't fall apart when they step away. Not a course. Not homework. Live sessions with you and your team.</p>
+          <h1 className="nat-h1">Add $20,000 in new revenue in 60 days. Guaranteed.</h1>
+          <p className="nat-lede">Fire your agency. We teach local service business owners live, 1-on-1 — how to fix their money model, explode their customer base, and build a business that doesn't fall apart when they step away. Not a course. Not homework. Live sessions with you and your team.</p>
           <p className="nat-sub">You'll add $20,000 in new revenue in 60 days — or I work for free until you do.</p>
           <div className="actions" style={{marginTop: '32px', display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center'}}>
             <a className="btn btn--primary" href="/apply/">Apply Now <span className="arrow">→</span></a>
