@@ -75,7 +75,7 @@ export default function ChallengePage() {
         <div className="wrap">
           <span className="label">What's included</span>
           <h2 style={{marginTop: '14px'}}>Nearly $39,000 of work and assets. One guarantee.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>The core is done with you live. The bonuses are byproducts of work already happening &mdash; they cost nothing extra to give but carry real, lasting value.</p>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>Every session is built around your business. The bonuses are yours to keep and use long after the 60 days are done.</p>
 
           {/* CORE TABLE */}
           <div style={{marginTop: '44px'}}>
