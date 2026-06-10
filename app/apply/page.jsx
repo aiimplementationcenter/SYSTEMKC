@@ -52,11 +52,6 @@ export default function Page() {
                 </div>
               </div>
 
-              <div style={{marginTop: '24px', padding: '20px', background: 'var(--bg-alt)', borderRadius: '8px', borderLeft: '3px solid var(--c-e)'}}>
-                <p style={{fontSize: '14px', lineHeight: '1.7', color: 'var(--muted)'}}>
-                  <strong style={{color: 'var(--fg)'}}>Looking for the scholarship?</strong> If cost is a barrier, apply for the <a href="/giveaway/" style={{color: 'var(--c-e)', fontWeight: '600'}}>SYSTEM KC Business Scholarship</a> instead — the full Done-For-You program awarded to the owner who demonstrates the greatest need.
-                </p>
-              </div>
             </div>
 
           </div>
