@@ -26,17 +26,25 @@ export default function ChallengePage() {
         </div>
       </section>
 
-      {/* GUARANTEE */}
-      <section className="section" style={{background: 'var(--bg-green-tint)'}}>
-        <div className="wrap-narrow">
-          <div className="guarantee-block">
-            <div className="guarantee-block-inner">
-              <div className="guarantee-label">The Guarantee</div>
-              <div className="guarantee-number">$20,000</div>
-              <p className="guarantee-text">You'll add $20,000 in new revenue in 60 days &mdash; or I work for free until you do.</p>
-              <p className="guarantee-sub">No contracts. No fine print. If the model we build together doesn't produce results, I keep working. You don't pay more.</p>
-              <div style={{marginTop: '28px'}}>
-                <a className="btn btn--primary" href="/apply/">Apply for a free fit call &rarr;</a>
+      {/* WHO THIS IS FOR + GUARANTEE */}
+      <section style={{background: 'var(--bg-green-tint)', padding: '80px 0', borderBottom: '1px solid var(--rule)'}}>
+        <div className="wrap">
+          <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'center'}}>
+            <div>
+              <p style={{fontFamily: 'var(--mono)', fontSize: '12px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '20px'}}>Who this is for</p>
+              <h2 style={{fontFamily: 'var(--sans)', fontSize: 'clamp(28px, 3.5vw, 46px)', fontWeight: '900', lineHeight: '1.1', letterSpacing: '-.03em', color: 'var(--blue-deep)'}}>We only work with owners who are serious about growth.</h2>
+              <p style={{marginTop: '24px', fontSize: '18px', lineHeight: '1.75', color: 'var(--muted)'}}>Most business owners left a 40-hour job &mdash; and ended up working 100 hours a week to avoid going back. The hustle isn&rsquo;t the problem. The missing playbook is. We fix the model so the business grows without the grind.</p>
+              <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.7', color: 'var(--muted)'}}>We work with local service business owners who are ready to stop guessing and start building a real growth system. If you&rsquo;re looking for a shortcut, this isn&rsquo;t it. If you&rsquo;re ready to do the work, we&rsquo;ll guarantee the result.</p>
+              <p style={{marginTop: '16px', fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: '22px', color: 'var(--blue-deep)', lineHeight: '1.35'}}>Success starts here &mdash; not with more hours, but with the right system.</p>
+            </div>
+            <div style={{background: 'var(--blue-deep)', borderRadius: '20px', padding: '44px 40px', textAlign: 'center'}}>
+              <p style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '8px'}}>The 60-Day Profit Challenge &mdash; Guarantee</p>
+              <div style={{fontFamily: 'var(--serif)', fontSize: 'clamp(56px, 8vw, 88px)', fontWeight: '900', lineHeight: '1', color: '#fff', letterSpacing: '-.03em'}}>$20,000</div>
+              <p style={{marginTop: '16px', fontSize: '19px', fontWeight: '700', color: '#fff', lineHeight: '1.4'}}>in new revenue in 60 days &mdash; or I work for free until you do.</p>
+              <p style={{marginTop: '14px', fontSize: '14px', color: 'rgba(255,255,255,.6)', lineHeight: '1.6'}}>No contracts. No fine print. We build your money model, marketing, sales system, referrals, and automation together &mdash; live and 1-on-1. If it doesn&rsquo;t produce, I keep working at no extra cost.</p>
+              <div style={{marginTop: '28px', display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center'}}>
+                <a className="btn btn--primary" href="/apply/" style={{width: '100%', justifyContent: 'center', fontSize: '17px', padding: '16px 24px'}}>Apply for a free fit call &rarr;</a>
+                <a href="#whats-included" style={{fontSize: '13px', color: 'rgba(255,255,255,.5)', fontFamily: 'var(--mono)', letterSpacing: '.06em'}}>See everything included in the Challenge &darr;</a>
               </div>
             </div>
           </div>
