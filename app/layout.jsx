@@ -78,6 +78,7 @@ function Footer() {
             <a href="/industries/law-firm-automation-kansas-city/">Law Firms</a>
             <a href="/industries/medical-dental-automation-kansas-city/">Medical &amp; Dental</a>
             <a href="/industries/salon-spa-automation-kansas-city/">Salons &amp; Spas</a>
+            <a href="/industries/auto-parts-suppliers/">Auto Parts Suppliers</a>
           </div>
         </div>
         <div className="foot-bot">
