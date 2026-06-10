@@ -16,7 +16,7 @@ export default function Page() {
       <header className="page-hero">
         <div className="wrap">
           <span className="label">For HVAC, Plumbing &amp; Home Services </span>
-          <h1>Stop losing jobs to voicemail. Add $20,000 in new trades revenue in 60 days.</h1>
+          <h1>The 60-Day HVAC $20,000 Profit Challenge</h1>
           <p className="lede">You are under a sink when the phone rings. By the time you call back, they booked your competitor. The 60-Day Profit Challenge teaches HVAC and plumbing owners how to fix their money model, capture every lead, and build a shop that grows without them babysitting it.</p>
           <p style={{fontStyle: 'italic', fontSize: '16px', color: 'var(--muted)', marginTop: '12px'}}>Add $20,000 in new revenue in 60 days &mdash; or I work for free until you do.</p>
           <div className="actions">
@@ -25,15 +25,26 @@ export default function Page() {
           </div>
         </div>
       </header>
-
-      {/* PROBLEM */}
-      <section className="section">
+      {/* WHO THIS IS FOR + GUARANTEE */}
+      <section style={{background: 'var(--bg-green-tint)', padding: '80px 0', borderBottom: '1px solid var(--rule)'}}>
         <div className="wrap">
-          <div className="prose" style={{maxWidth: '72ch'}}>
-            <h2 style={{marginTop: '0'}}>The lead loss problem (specific to trades).</h2>
-            <p>You are under a sink. The phone rings. By the time you towel off and call back, that homeowner has already booked your competitor. <strong>Industry research puts the missed-call rate for small home-services businesses at 62%</strong> &mdash; and 85% of those callers never try you again.</p>
-            <p>Add to that: quote follow-up that lives on sticky notes. Reviews that &ldquo;we keep meaning to ask for.&rdquo; A scheduling system that is really just whoever happens to be in the office that day.</p>
-            <p>None of this is a moral failing. You are running a trades business &mdash; you are <em>supposed</em> to be on job sites. The leak is structural: there is no system handling the inbound while you are swinging a wrench. That is exactly what we fix in the 60-Day Challenge.</p>
+          <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'center'}}>
+            <div>
+              <p style={{fontFamily: 'var(--mono)', fontSize: '12px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '20px'}}>Who this is for</p>
+              <h2 style={{fontFamily: 'var(--sans)', fontSize: 'clamp(28px, 3.5vw, 46px)', fontWeight: '900', lineHeight: '1.1', letterSpacing: '-.03em', color: 'var(--blue-deep)'}}>Built for owners who are done running calls from the roof.</h2>
+              <p style={{marginTop: '24px', fontSize: '18px', lineHeight: '1.75', color: 'var(--muted)'}}>HVAC and plumbing owners didn&rsquo;t start their business to spend their days checking voicemails on the drive home. The phone problem isn&rsquo;t you &mdash; it&rsquo;s a broken system. The work ethic is there. The playbook is missing.</p>
+              <p style={{marginTop: '16px', fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: '22px', color: 'var(--blue-deep)', lineHeight: '1.35'}}>Success doesn&rsquo;t come from more hours on the truck &mdash; it comes from building the system that captures every job while you&rsquo;re doing the work.</p>
+            </div>
+            <div style={{background: 'var(--blue-deep)', borderRadius: '20px', padding: '44px 40px', textAlign: 'center'}}>
+              <p style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '8px'}}>The 60-Day HVAC Profit Challenge &mdash; Guarantee</p>
+              <div style={{fontFamily: 'var(--serif)', fontSize: 'clamp(56px, 8vw, 88px)', fontWeight: '900', lineHeight: '1', color: '#fff', letterSpacing: '-.03em'}}>$20,000</div>
+              <p style={{marginTop: '16px', fontSize: '19px', fontWeight: '700', color: '#fff', lineHeight: '1.4'}}>in new revenue in 60 days &mdash; or I work for free until you do.</p>
+              <p style={{marginTop: '14px', fontSize: '14px', color: 'rgba(255,255,255,.6)', lineHeight: '1.6'}}>No contracts. No fine print. We build your money model, marketing, sales system, referrals, and operations together &mdash; live and 1-on-1. If it doesn&rsquo;t produce, I keep working at no extra cost.</p>
+              <div style={{marginTop: '28px', display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center'}}>
+                <a className="btn btn--primary" href="/apply/" style={{width: '100%', justifyContent: 'center', fontSize: '17px', padding: '16px 24px'}}>Apply for a free fit call &rarr;</a>
+                <a href="/the-challenge/" style={{fontSize: '13px', color: 'rgba(255,255,255,.5)', fontFamily: 'var(--mono)', letterSpacing: '.06em'}}>See everything included in the Challenge &rarr;</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -111,21 +122,6 @@ export default function Page() {
                 <li>Owner sees the day&rsquo;s booking summary on his phone at 7pm.</li>
                 <li>$31k/mo added revenue. New 7th truck. Owner home by 6.</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* GUARANTEE */}
-      <section style={{background: 'var(--bg-green-tint)', padding: '80px 0'}}>
-        <div className="wrap-narrow">
-          <div style={{background: 'var(--blue-deep)', borderRadius: '16px', padding: '52px 48px', textAlign: 'center'}}>
-            <div style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--green)', marginBottom: '20px'}}>The 60-Day Profit Challenge &mdash; Guarantee</div>
-            <div style={{fontFamily: 'var(--sans)', fontSize: '72px', fontWeight: '900', color: '#fff', lineHeight: '1', marginBottom: '24px'}}>$20,000</div>
-            <p style={{fontSize: '20px', color: '#fff', lineHeight: '1.6', maxWidth: '52ch', margin: '0 auto 12px'}}>Add $20,000 in new revenue in 60 days. If you don&rsquo;t, I keep working with you for free until you do. No fine print.</p>
-            <div style={{display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '32px'}}>
-              <a className="btn btn--primary" href="/apply/">Apply Now &rarr;</a>
-              <a className="btn btn--ghost" href="/the-challenge/">See everything in the Challenge</a>
             </div>
           </div>
         </div>

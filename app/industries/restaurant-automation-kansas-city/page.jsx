@@ -16,7 +16,7 @@ export default function Page() {
       <header className="page-hero">
         <div className="wrap">
           <span className="label">For Restaurants &amp; Food Service </span>
-          <h1>More covers, higher ticket, no-shows slashed. Add $20,000 in new restaurant revenue in 60 days.</h1>
+          <h1>The 60-Day Restaurant $20,000 Profit Challenge</h1>
           <p className="lede">Independent restaurant operators &mdash; and the operators running it are exhausted. The 60-Day Profit Challenge teaches restaurant owners how to fix the money model, fill the dining room, and build the operational layer that means you can actually take a Tuesday off.</p>
           <p style={{fontStyle: 'italic', fontSize: '16px', color: 'var(--muted)', marginTop: '12px'}}>Add $20,000 in new revenue in 60 days &mdash; or I work for free until you do.</p>
           <div className="actions">
@@ -25,15 +25,26 @@ export default function Page() {
           </div>
         </div>
       </header>
-
-      {/* PROBLEM */}
-      <section className="section">
+      {/* WHO THIS IS FOR + GUARANTEE */}
+      <section style={{background: 'var(--bg-green-tint)', padding: '80px 0', borderBottom: '1px solid var(--rule)'}}>
         <div className="wrap">
-          <div className="prose" style={{maxWidth: '72ch'}}>
-            <h2 style={{marginTop: '0'}}>You are running the hardest business there is.</h2>
-            <p>Restaurant margins are measured in minutes. A 30-minute open table at 7pm Saturday is the difference between a great night and a meh one. A negative review that sits without a response for 48 hours becomes the top result when someone Googles you on Sunday morning.</p>
-            <p>Most restaurant tech is built for the chef and the server &mdash; POS, KDS, inventory. Almost none of it handles the customer side. That is where the leaks are: <strong>no-shows costing $200&ndash;$400 per reserved table</strong>, reviews going unanswered, the social account that nobody has time to post to, the loyalty program that nobody enrolls anyone in.</p>
-            <p>That is exactly what we fix in the 60-Day Challenge.</p>
+          <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '64px', alignItems: 'center'}}>
+            <div>
+              <p style={{fontFamily: 'var(--mono)', fontSize: '12px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '20px'}}>Who this is for</p>
+              <h2 style={{fontFamily: 'var(--sans)', fontSize: 'clamp(28px, 3.5vw, 46px)', fontWeight: '900', lineHeight: '1.1', letterSpacing: '-.03em', color: 'var(--blue-deep)'}}>Built for operators who are done being the last one to leave every night.</h2>
+              <p style={{marginTop: '24px', fontSize: '18px', lineHeight: '1.75', color: 'var(--muted)'}}>Restaurant owners didn&rsquo;t open their doors to run doubles seven days a week and watch no-shows eat the margin. The operational chaos isn&rsquo;t the cost of doing business &mdash; it&rsquo;s the cost of not having a system. The passion is there. The model needs fixing.</p>
+              <p style={{marginTop: '16px', fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: '22px', color: 'var(--blue-deep)', lineHeight: '1.35'}}>Success isn&rsquo;t about working harder &mdash; it&rsquo;s about building the right model so the dining room fills itself.</p>
+            </div>
+            <div style={{background: 'var(--blue-deep)', borderRadius: '20px', padding: '44px 40px', textAlign: 'center'}}>
+              <p style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '8px'}}>The 60-Day Restaurant Profit Challenge &mdash; Guarantee</p>
+              <div style={{fontFamily: 'var(--serif)', fontSize: 'clamp(56px, 8vw, 88px)', fontWeight: '900', lineHeight: '1', color: '#fff', letterSpacing: '-.03em'}}>$20,000</div>
+              <p style={{marginTop: '16px', fontSize: '19px', fontWeight: '700', color: '#fff', lineHeight: '1.4'}}>in new revenue in 60 days &mdash; or I work for free until you do.</p>
+              <p style={{marginTop: '14px', fontSize: '14px', color: 'rgba(255,255,255,.6)', lineHeight: '1.6'}}>No contracts. No fine print. We build your money model, marketing, sales system, referrals, and operations together &mdash; live and 1-on-1. If it doesn&rsquo;t produce, I keep working at no extra cost.</p>
+              <div style={{marginTop: '28px', display: 'flex', flexDirection: 'column', gap: '10px', alignItems: 'center'}}>
+                <a className="btn btn--primary" href="/apply/" style={{width: '100%', justifyContent: 'center', fontSize: '17px', padding: '16px 24px'}}>Apply for a free fit call &rarr;</a>
+                <a href="/the-challenge/" style={{fontSize: '13px', color: 'rgba(255,255,255,.5)', fontFamily: 'var(--mono)', letterSpacing: '.06em'}}>See everything included in the Challenge &rarr;</a>
+              </div>
+            </div>
           </div>
         </div>
       </section>
@@ -109,21 +120,6 @@ export default function Page() {
                 <li>3 posts/week, scheduled in 30 min on Monday morning.</li>
                 <li>Manager done at 11pm. Owner finally takes a Tuesday off.</li>
               </ul>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* GUARANTEE */}
-      <section style={{background: 'var(--bg-green-tint)', padding: '80px 0'}}>
-        <div className="wrap-narrow">
-          <div style={{background: 'var(--blue-deep)', borderRadius: '16px', padding: '52px 48px', textAlign: 'center'}}>
-            <div style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.14em', textTransform: 'uppercase', color: 'var(--green)', marginBottom: '20px'}}>The 60-Day Profit Challenge &mdash; Guarantee</div>
-            <div style={{fontFamily: 'var(--sans)', fontSize: '72px', fontWeight: '900', color: '#fff', lineHeight: '1', marginBottom: '24px'}}>$20,000</div>
-            <p style={{fontSize: '20px', color: '#fff', lineHeight: '1.6', maxWidth: '52ch', margin: '0 auto 12px'}}>Add $20,000 in new revenue in 60 days. If you don&rsquo;t, I keep working with you for free until you do. No fine print.</p>
-            <div style={{display: 'flex', gap: '12px', justifyContent: 'center', flexWrap: 'wrap', marginTop: '32px'}}>
-              <a className="btn btn--primary" href="/apply/">Apply Now &rarr;</a>
-              <a className="btn btn--ghost" href="/the-challenge/">See everything in the Challenge</a>
             </div>
           </div>
         </div>
