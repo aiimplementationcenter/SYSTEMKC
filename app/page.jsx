@@ -152,6 +152,7 @@ export default function Page() {
               <h3>The 60-Day Profit Challenge</h3>
               <p>Live 1-on-1 training for you and your team. We build your money model, customer acquisition plan, referral and review systems, and full automation install &mdash; together, start to finish, in 60 days.</p>
               <p style={{marginTop: '14px', fontSize: '14px', fontStyle: 'italic', color: 'var(--muted)'}}>You'll add $20,000 in new revenue in 60 days &mdash; or I work for free until you do.</p>
+              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--green)', fontFamily: 'var(--mono)', fontWeight: '700'}}>$3,000&ndash;$5,000 &mdash; about one agency month, one time.</p>
               <div style={{marginTop: '20px'}}>
                 <a className="btn btn--primary" href="/the-challenge/">Apply for the Challenge &rarr;</a>
               </div>
