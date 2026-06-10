@@ -161,7 +161,7 @@ export default function ChallengePage() {
               </div>
               <div style={{textAlign: 'center'}}>
                 <div style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,.5)', marginBottom: '8px'}}>An agency</div>
-                <div style={{fontFamily: 'var(--sans)', fontSize: '18px', fontWeight: '800', color: '#fff', lineHeight: '1.3'}}>Same cost, every month</div>
+                <div style={{fontFamily: 'var(--sans)', fontSize: '22px', fontWeight: '900', color: '#fff', lineHeight: '1.2'}}>$36K&ndash;$60K / year</div>
                 <div style={{fontSize: '13px', color: 'rgba(255,255,255,.45)', marginTop: '6px', lineHeight: '1.4'}}>ongoing, forever, no guarantee</div>
               </div>
               <div style={{textAlign: 'center', background: 'rgba(16,185,129,.15)', borderRadius: '12px', padding: '16px 12px'}}>
