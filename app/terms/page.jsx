@@ -1,4 +1,4 @@
-export const metadata = {
+﻿export const metadata = {
   title: 'Terms & Conditions and SMS Terms | S.Y.S.T.E.M. KC',
   description: 'Terms of service and SMS-specific terms for S.Y.S.T.E.M. KC. Includes STOP/HELP opt-out instructions, carrier liability disclaimer, and links to Privacy Policy.',
 };
@@ -6,7 +6,7 @@ export const metadata = {
 export default function Page() {
   return (
     <main>
-<div className="wrap"><div className="crumbs"><a href="/">Home</a><span className="sep">·</span><span className="here">Terms & SMS</span></div></div>
+<div className="wrap"><div className="crumbs"><a href="/">Home</a><span className="sep">Â·</span><span className="here">Terms & SMS</span></div></div>
 <header className="page-hero"><div className="wrap"><span className="label">Terms & SMS</span><h1>Terms &amp; Conditions, including SMS Terms.</h1><p className="lede" style={{fontSize: '15px', color: 'var(--dim)', fontFamily: 'var(--mono)', textTransform: 'uppercase', letterSpacing: '.08em', fontWeight: '700'}}>Last updated: May 1, 2026</p></div></header>
 <section className="section"><div className="wrap-narrow"><div className="prose">
 <p>These Terms &amp; Conditions ("Terms") govern your use of the S.Y.S.T.E.M. KC website and our services. By using our site or engaging our services, you agree to these Terms.</p>
@@ -41,7 +41,7 @@ export default function Page() {
 </ul>
 
 <h2>6. Intellectual property</h2>
-<p>All content on this website — copy, logos, designs, and code — is owned by S.Y.S.T.E.M. KC LLC. Deliverables produced during a paid engagement (workflows, SOPs, copy, configurations) belong to you, the client, upon full payment.</p>
+<p>All content on this website â€” copy, logos, designs, and code â€” is owned by S.Y.S.T.E.M. KC LLC. Deliverables produced during a paid engagement (workflows, SOPs, copy, configurations) belong to you, the client, upon full payment.</p>
 
 <h2>7. Limitation of liability</h2>
 <p>To the maximum extent permitted by law, S.Y.S.T.E.M. KC LLC is not liable for indirect, incidental, consequential, or punitive damages arising from your use of our website or services. Our total liability for any claim is limited to the amount you have paid us in the 12 months preceding the claim.</p>

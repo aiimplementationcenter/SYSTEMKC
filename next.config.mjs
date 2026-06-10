@@ -1,4 +1,4 @@
-/** @type {import('next').NextConfig} */
+﻿/** @type {import('next').NextConfig} */
 const nextConfig = {
   trailingSlash: true,
   async redirects() {
@@ -10,11 +10,11 @@ const nextConfig = {
       { source: '/services/', destination: '/the-system/', permanent: true },
       { source: '/use-cases/', destination: '/the-system/', permanent: true },
       { source: '/free-audit/', destination: '/apply/', permanent: true },
-      { source: '/free-guide/', destination: '/the-sprint/', permanent: true },
-      { source: '/giveaway/', destination: '/the-sprint/', permanent: true },
-      { source: '/giveaway/rules/', destination: '/the-sprint/', permanent: true },
-      { source: '/giveaway/refer/', destination: '/the-sprint/', permanent: true },
-      { source: '/mentorship/', destination: '/the-sprint/', permanent: false },
+      { source: '/free-guide/', destination: '/the-challenge/', permanent: true },
+      { source: '/giveaway/', destination: '/the-challenge/', permanent: true },
+      { source: '/giveaway/rules/', destination: '/the-challenge/', permanent: true },
+      { source: '/giveaway/refer/', destination: '/the-challenge/', permanent: true },
+      { source: '/mentorship/', destination: '/the-challenge/', permanent: false },
     ];
   },
 };

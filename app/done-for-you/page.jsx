@@ -1,39 +1,39 @@
-export const metadata = {
+﻿export const metadata = {
   title: 'Done For You Business Systems | S.Y.S.T.E.M. KC',
-  description: 'We build and install your entire business system — money model audit, SOPs, automations, follow-up sequences — and hand it off running. You own everything.',
+  description: 'We build and install your entire business system â€” money model audit, SOPs, automations, follow-up sequences â€” and hand it off running. You own everything.',
 };
 
 export default function Page() {
   return (
     <main>
 
-      <div className="wrap"><div className="crumbs"><a href="/">Home</a><span className="sep">·</span><span className="here">Done For You</span></div></div>
+      <div className="wrap"><div className="crumbs"><a href="/">Home</a><span className="sep">Â·</span><span className="here">Done For You</span></div></div>
 
-      {/* ── HERO ── */}
+      {/* â”€â”€ HERO â”€â”€ */}
       <section className="nat-hero">
         <div className="wrap">
           <span className="label">Done For You</span>
           <h1 className="nat-h1">You approve it. We build it. You own it.</h1>
-          <p className="nat-lede">Prefer to hand it off? Done For You is for the owner who wants the full result without doing the live sessions. Our team builds and installs your entire growth system — strategy, SOPs, and all the automations — then hands it off running.</p>
+          <p className="nat-lede">Prefer to hand it off? Done For You is for the owner who wants the full result without doing the live sessions. Our team builds and installs your entire growth system â€” strategy, SOPs, and all the automations â€” then hands it off running.</p>
           <div className="actions">
-            <a className="btn btn--primary" href="/apply/">Apply to work together <span className="arrow">→</span></a>
+            <a className="btn btn--primary" href="/apply/">Apply to work together <span className="arrow">â†’</span></a>
             <a className="btn btn--ghost" href="tel:8169622111">Call Jason: (816) 962-2111</a>
           </div>
         </div>
       </section>
 
-      {/* ── WHO IT'S FOR ── */}
+      {/* â”€â”€ WHO IT'S FOR â”€â”€ */}
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">Who this is for</span>
-          <h2 style={{marginTop: '14px'}}>The operator who wants the result — not the process.</h2>
+          <h2 style={{marginTop: '14px'}}>The operator who wants the result â€” not the process.</h2>
           <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Done For You is for business owners who already have enough on their plate. You know the operation needs fixing. You just don't have 20 hours to learn new software and figure out what to automate first. That's our job.</p>
           <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>You make the decisions. We do the work. You walk away with a system you own and understand.</p>
-          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>If you'd rather learn alongside us in live sessions, see <a href="/the-sprint/" style={{color: 'var(--blue)', fontWeight: '600'}}>The 60-Day Profit Sprint</a>.</p>
+          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>If you'd rather learn alongside us in live sessions, see <a href="/the-challenge/" style={{color: 'var(--blue)', fontWeight: '600'}}>The 60-Day Profit Challenge</a>.</p>
         </div>
       </section>
 
-      {/* ── WHAT'S INCLUDED ── */}
+      {/* â”€â”€ WHAT'S INCLUDED â”€â”€ */}
       <section className="section">
         <div className="wrap">
           <span className="label">What's included</span>
@@ -42,7 +42,7 @@ export default function Page() {
             <div className="dfy-primary">
               <span className="tag">Foundation</span>
               <h3>Money Model Audit</h3>
-              <p>We map your revenue top to bottom — pricing, lead sources, conversion rate, job size, repeat business. You'll see your profit picture drawn clearly, probably for the first time.</p>
+              <p>We map your revenue top to bottom â€” pricing, lead sources, conversion rate, job size, repeat business. You'll see your profit picture drawn clearly, probably for the first time.</p>
               <ul className="dfy-list">
                 <li>Revenue mapping session (in person or video)</li>
                 <li>Profit leak identification</li>
@@ -64,7 +64,7 @@ export default function Page() {
             <div className="dfy-secondary">
               <span className="tag">Automation</span>
               <h3>Systems Build</h3>
-              <p>We build and install the automations that cover your highest-priority gaps — tested, running, and yours.</p>
+              <p>We build and install the automations that cover your highest-priority gaps â€” tested, running, and yours.</p>
               <ul className="dfy-list">
                 <li>Missed-call text-back</li>
                 <li>Lead follow-up sequences</li>
@@ -81,7 +81,7 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── HOW IT WORKS ── */}
+      {/* â”€â”€ HOW IT WORKS â”€â”€ */}
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">How it works</span>
@@ -93,7 +93,7 @@ export default function Page() {
             </div>
             <div className="proc-step">
               <div className="proc-month">Stage 2</div>
-              <div><h4>Audit & Money Model</h4><p>Deep dive into your business — revenue, operations, and the biggest gaps. You get a written summary of what we found and what to fix first.</p></div>
+              <div><h4>Audit & Money Model</h4><p>Deep dive into your business â€” revenue, operations, and the biggest gaps. You get a written summary of what we found and what to fix first.</p></div>
             </div>
             <div className="proc-step">
               <div className="proc-month">Stage 3</div>
@@ -101,13 +101,13 @@ export default function Page() {
             </div>
             <div className="proc-step">
               <div className="proc-month">Stage 4</div>
-              <div><h4>Handoff & Support</h4><p>We hand off everything — documented, running, and yours. 30-day support included. After that, you own it completely.</p></div>
+              <div><h4>Handoff & Support</h4><p>We hand off everything â€” documented, running, and yours. 30-day support included. After that, you own it completely.</p></div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* ── TRUST ── */}
+      {/* â”€â”€ TRUST â”€â”€ */}
       <section className="section">
         <div className="wrap-narrow">
           <span className="label">Our commitments</span>
@@ -116,11 +116,11 @@ export default function Page() {
             {[
               ['You own it all', 'Every automation, SOP, workflow, and data asset transfers to you completely. What we build together stays with you.'],
               ['No long-term contracts', 'Month-to-month for ongoing support. If you leave, the system stays with you.'],
-              ['In person when it matters', 'Where geography allows, we come to you — we see how your business actually runs, not how you describe it. Remote clients get the same depth over video.'],
+              ['In person when it matters', 'Where geography allows, we come to you â€” we see how your business actually runs, not how you describe it. Remote clients get the same depth over video.'],
               ['Only pay for what you need', 'What you need depends on your business. Apply and we\'ll tell you what makes sense before you spend a dollar.'],
             ].map(([title, desc]) => (
               <div className="trust-cell" key={title}>
-                <div className="tc-check">✓</div>
+                <div className="tc-check">âœ“</div>
                 <div><strong>{title}</strong><p>{desc}</p></div>
               </div>
             ))}
@@ -128,14 +128,14 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── CTA ── */}
+      {/* â”€â”€ CTA â”€â”€ */}
       <section className="cta-strip">
         <div className="wrap inner">
           <h2>Apply to have it built for you.</h2>
           <p className="sub">First conversation is free. We figure out what your business needs before we talk about cost or scope.</p>
           <div className="actions">
-            <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
-            <a className="btn btn--ghost-invert" href="/the-sprint/">Or see the Sprint →</a>
+            <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">â†’</span></a>
+            <a className="btn btn--ghost-invert" href="/the-challenge/">Or see the Sprint â†’</a>
           </div>
         </div>
       </section>
