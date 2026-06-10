@@ -52,16 +52,6 @@ export default function ApplyForm() {
       </div>
 
       <div className="form-row">
-        <label htmlFor="ap-interest">What are you most interested in? *</label>
-        <select id="ap-interest" name="interest" required>
-          <option value="">Select…</option>
-          <option value="done-for-you">Done For You — build and install the full system</option>
-          <option value="mentorship">Mentorship — monthly coaching and support</option>
-          <option value="not-sure">Not sure yet — I need help figuring that out</option>
-        </select>
-      </div>
-
-      <div className="form-row">
         <label htmlFor="ap-employees">Number of employees</label>
         <select id="ap-employees" name="employees">
           <option value="">Select…</option>
