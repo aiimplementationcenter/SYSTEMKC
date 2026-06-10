@@ -13,8 +13,8 @@ export default function Page() {
       <section className="nat-hero">
         <div className="wrap">
           <span className="label">Done For You</span>
-          <h1 className="nat-h1">You approve it. We build it. You walk away running it.</h1>
-          <p className="nat-lede">The full S.Y.S.T.E.M. method — money model audit, operational documentation, and working automations — built and installed for your business. No homework. No tech stack to figure out. Just results.</p>
+          <h1 className="nat-h1">You approve it. We build it. You own it.</h1>
+          <p className="nat-lede">Prefer to hand it off? Done For You is for the owner who wants the full result without doing the live sessions. Our team builds and installs your entire growth system — strategy, SOPs, and all the automations — then hands it off running.</p>
           <div className="actions">
             <a className="btn btn--primary" href="/apply/">Apply to work together <span className="arrow">→</span></a>
             <a className="btn btn--ghost" href="tel:8169622111">Call Jason: (816) 962-2111</a>
@@ -29,6 +29,7 @@ export default function Page() {
           <h2 style={{marginTop: '14px'}}>The operator who wants the result — not the process.</h2>
           <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Done For You is for business owners who already have enough on their plate. You know the operation needs fixing. You just don't have 20 hours to learn new software and figure out what to automate first. That's our job.</p>
           <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>You make the decisions. We do the work. You walk away with a system you own and understand.</p>
+          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>If you'd rather learn alongside us in live sessions, see <a href="/the-sprint/" style={{color: 'var(--blue)', fontWeight: '600'}}>The 60-Day Profit Sprint</a>.</p>
         </div>
       </section>
 
@@ -134,7 +135,7 @@ export default function Page() {
           <p className="sub">First conversation is free. We figure out what your business needs before we talk about cost or scope.</p>
           <div className="actions">
             <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
-            <a className="btn btn--ghost-invert" href="tel:8169622111">Call Jason: (816) 962-2111</a>
+            <a className="btn btn--ghost-invert" href="/the-sprint/">Or see the Sprint →</a>
           </div>
         </div>
       </section>

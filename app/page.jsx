@@ -1,8 +1,8 @@
 import GeoBanner from './components/GeoBanner';
 
 export const metadata = {
-  title: 'S.Y.S.T.E.M. KC — More Customers. More Profit. Less Guessing.',
-  description: 'We teach local service businesses how to get more customers, earn more from each one, and build the kind of profit that doesn\'t require working more hours.',
+  title: 'S.Y.S.T.E.M. KC — Add $20,000 in New Revenue in 60 Days. Guaranteed.',
+  description: 'Live 1-on-1 business growth training for local service businesses. We teach offers, marketing, sales, speed-to-lead, referrals, and automation — start to finish in 60 days.',
 };
 
 export default function Page() {
@@ -12,29 +12,38 @@ export default function Page() {
       <GeoBanner />
 
       {/* ── HERO ── */}
-      <section className="nat-hero">
+      <section className="nat-hero nat-hero--gradient">
         <div className="wrap">
-          <span className="label">Local service businesses · Growth strategy · Profit first</span>
-          <h1 className="nat-h1">More customers. More money per customer. Profits that don't require more hours.</h1>
-          <p className="nat-lede">We teach local service business owners the exact playbook for attracting more customers, getting more out of every one you already have, and building a business that doesn't fall apart when you step away.</p>
-          <p className="nat-sub">The tools and automations? Those come last — and they're just how we make the whole thing run without you doing it manually every day.</p>
-          <div className="actions">
-            <a className="btn btn--primary" href="/apply/">Apply to work together <span className="arrow">→</span></a>
-            <a className="btn btn--ghost" href="/the-system/">See the full playbook</a>
+          <span className="label">The 60-Day Profit Sprint</span>
+          <h1 className="nat-h1">Fire your agency. Add $20,000 in new revenue in 60 days. Guaranteed.</h1>
+          <p className="nat-lede">We teach local service business owners live, 1-on-1 — how to fix their money model, explode their customer base, and build a business that doesn't fall apart when they step away. Not a course. Not homework. Live sessions with you and your team.</p>
+          <p className="nat-sub">You'll add $20,000 in new revenue in 60 days — or I work for free until you do.</p>
+          <div className="actions" style={{marginTop: '32px', display: 'flex', flexWrap: 'wrap', gap: '12px', alignItems: 'center'}}>
+            <a className="btn btn--primary" href="/apply/">Apply Now <span className="arrow">→</span></a>
+            <a className="btn btn--ghost" href="/the-sprint/">See How It Works</a>
           </div>
           <p className="nat-trust">Built by a 20-year operator who still runs a multi-location service business today.</p>
+          <div className="scarcity-counter" style={{marginTop: '24px'}}>
+            <span className="scarcity-dot"></span>
+            3 of 5 client spots currently open
+          </div>
         </div>
       </section>
 
-      {/* ── OPERATOR CREDIBILITY ── */}
-      <section className="section section--alt">
+      {/* ── GUARANTEE BLOCK ── */}
+      <section className="section" style={{background: 'var(--bg-green-tint)'}}>
         <div className="wrap-narrow">
-          <span className="label">Who you're talking to</span>
-          <h2 style={{marginTop: '14px'}}>This isn't taught from a course. It's run from a business.</h2>
-          <blockquote className="op-quote">
-            "I've spent 20 years building businesses — and I still own and operate a multi-location service company across the Midwest. Every growth strategy I teach, I use. Every system I recommend, I've tested. I'm not a consultant who figured this out in a classroom."
-          </blockquote>
-          <p style={{marginTop: '24px', color: 'var(--muted)', fontSize: '17px', lineHeight: '1.7'}}>S.Y.S.T.E.M. KC exists because I kept watching capable business owners grind themselves into the ground — not because they lacked work ethic, but because nobody had ever shown them the actual playbook for growing a local service business. So I wrote it.</p>
+          <div className="guarantee-block">
+            <div className="guarantee-block-inner">
+              <div className="guarantee-label">The Guarantee</div>
+              <div className="guarantee-number">$20,000</div>
+              <p className="guarantee-text">You'll add $20,000 in new revenue in 60 days — or I work for free until you do.</p>
+              <p className="guarantee-sub">No contracts. No fine print. If the model we build together doesn't produce results, I keep working. You don't pay more.</p>
+              <div style={{marginTop: '28px'}}>
+                <a className="btn btn--primary" href="/apply/">Apply for a free fit call →</a>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
 
@@ -55,34 +64,48 @@ export default function Page() {
             <div className="stat-cell"><div className="stat-num">3–5×</div><div className="stat-desc">higher ad conversion when your offer is clear and differentiated — fixing the offer makes every marketing dollar go further<sup>7</sup></div></div>
             <div className="stat-cell"><div className="stat-num">5–9%</div><div className="stat-desc">revenue increase per additional star on Google — reviews aren't a vanity metric, they're a revenue driver<sup>8</sup></div></div>
           </div>
-          <p className="stat-sources">Sources: <sup>1</sup>Invoca 2023 · <sup>2</sup>Harvard Business Review · <sup>3</sup>Velocify · <sup>4</sup>Clutch research · <sup>5</sup>Bain &amp; Company · <sup>6</sup>McKinsey · <sup>7</sup>CXL Institute · <sup>8</sup>Harvard Business School</p>
+          <p className="stat-sources">Sources: <sup>1</sup>Invoca 2023 · <sup>2</sup>Harvard Business Review · <sup>3</sup>Velocify · <sup>4</sup>Clutch · <sup>5</sup>Bain &amp; Company · <sup>6</sup>McKinsey · <sup>7</sup>CXL Institute · <sup>8</sup>Harvard Business School</p>
         </div>
       </section>
 
-      {/* ── WHAT WE ACTUALLY TEACH ── */}
+      {/* ── SIX-PILLAR CURRICULUM ── */}
       <section className="section section--alt">
         <div className="wrap">
           <span className="label">What we teach</span>
-          <h2 style={{marginTop: '14px'}}>Three things. In the right order.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>Most consultants sell you software. We teach you a growth strategy — then show you which tools make it run without you doing everything by hand.</p>
+          <h2 style={{marginTop: '14px'}}>Six pillars. Start to finish. In the right order.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>Most owners buy software and hope it helps. We teach the actual business model — then add tools that execute it automatically.</p>
           <div className="three-col" style={{marginTop: '44px'}}>
             <div className="three-card">
-              <div className="three-num">01</div>
-              <h3>How to Get More Customers</h3>
-              <p>Local visibility, Google presence, review generation, referral programs, paid and organic marketing that actually works for service businesses. We map exactly where your customers come from today — and build the strategy to multiply that flow.</p>
-              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--muted)'}}>No guessing. No wasting money on ads before the foundation is right.</p>
+              <div className="three-num">PILLAR 01</div>
+              <h3>Offers &amp; Money Model</h3>
+              <p>We audit exactly how your business makes money — pricing, margins, offer clarity, what you're charging vs. what the market will pay. This is where most growth is hiding.</p>
             </div>
             <div className="three-card">
-              <div className="three-num">02</div>
-              <h3>How to Make More From Each One</h3>
-              <p>Pricing strategy, upsells, repeat visits, customer lifetime value, and retention. Most service businesses are leaving 30–50% of their potential revenue on the table from customers they've already won. We show you exactly where and how to capture it.</p>
-              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--muted)'}}>The customer you already have is the cheapest sale you'll ever make.</p>
+              <div className="three-num">PILLAR 02</div>
+              <h3>Marketing &amp; Lead Gen</h3>
+              <p>Google visibility, local SEO, Facebook, Instagram, TikTok, Nextdoor — we map where your customers actually are and how to reach them without guessing or overspending.</p>
             </div>
             <div className="three-card">
-              <div className="three-num">03</div>
-              <h3>How to Run It Without You</h3>
-              <p>Once the growth strategy is clear, we install the tools and automations that execute it on autopilot — missed-call text-back, follow-up sequences, review requests, rebooking campaigns. This is the last step, not the first.</p>
-              <p style={{marginTop: '12px', fontSize: '14px', color: 'var(--muted)'}}>Automation without strategy is just expensive busywork.</p>
+              <div className="three-num">PILLAR 03</div>
+              <h3>Sales &amp; Conversion</h3>
+              <p>What you say, how you quote, what your offer looks like. A clearer offer converts 3–5× better than a vague one. We redesign the pitch and the process.</p>
+            </div>
+          </div>
+          <div className="three-col" style={{marginTop: '24px'}}>
+            <div className="three-card">
+              <div className="three-num">PILLAR 04</div>
+              <h3>Speed-to-Lead &amp; Follow-Up</h3>
+              <p>78% of buyers go with whoever responds first. We build the response and follow-up system that means you're always first — even at 2am on a Tuesday.</p>
+            </div>
+            <div className="three-card">
+              <div className="three-num">PILLAR 05</div>
+              <h3>Referral &amp; Review Systems</h3>
+              <p>Happy customers only refer when you give them a path. We design and install referral programs and review engines that run automatically after every job.</p>
+            </div>
+            <div className="three-card">
+              <div className="three-num">PILLAR 06</div>
+              <h3>Operations &amp; Automation</h3>
+              <p>Once the strategy is built, we install the tools that execute it — automations, SOPs, and workflows your team can run without you narrating every step.</p>
             </div>
           </div>
         </div>
@@ -95,14 +118,14 @@ export default function Page() {
           <h2 style={{marginTop: '14px', maxWidth: '28ch'}}>Any local service business ready to grow.</h2>
           <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>The growth playbook is the same whether you cut hair, fix furnaces, or represent clients in court. Here's where we see the biggest results:</p>
           <div className="stat-wall" style={{marginTop: '40px', gridTemplateColumns: 'repeat(4, 1fr)'}}>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>HVAC & Plumbing</strong><div className="stat-desc">Faster response + better referral systems + review automation = a full schedule without more ad spend.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Roofing & Contractors</strong><div className="stat-desc">Better follow-up, smarter quoting, and a referral engine that turns every finished job into the next one.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Real Estate</strong><div className="stat-desc">Speed-to-lead strategy, past-client reactivation, and a referral system that makes your database a growth engine.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Medical & Dental</strong><div className="stat-desc">Cut no-shows, fill cancellations, and build the patient communication system that keeps people coming back.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Salons & Nail Salons</strong><div className="stat-desc">Rebooking strategy, review generation, and a referral program that turns regulars into your best marketers.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Barber Shops</strong><div className="stat-desc">Loyalty strategy, automated reminders, and the marketing systems that keep chairs full on slow days.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Spas & Massage Therapists</strong><div className="stat-desc">Repeat-visit strategy is everything here. We build the re-engagement system that keeps your books full month after month.</div></div>
-            <div className="stat-cell"><strong style={{display:'block',fontSize:'17px',marginBottom:'8px'}}>Hair Stylists & Studios</strong><div className="stat-desc">Client retention + referral programs + local visibility = a full book without paying for every new client.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>HVAC &amp; Plumbing</strong><div className="stat-desc">Faster response + better referral systems + review automation = a full schedule without more ad spend.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Roofing &amp; Contractors</strong><div className="stat-desc">Better follow-up, smarter quoting, and a referral engine that turns every finished job into the next one.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Real Estate</strong><div className="stat-desc">Speed-to-lead strategy, past-client reactivation, and a referral system that makes your database a growth engine.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Medical &amp; Dental</strong><div className="stat-desc">Cut no-shows, fill cancellations, and build the patient communication system that keeps people coming back.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Salons &amp; Nail Salons</strong><div className="stat-desc">Rebooking strategy, review generation, and a referral program that turns regulars into your best marketers.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Barber Shops</strong><div className="stat-desc">Loyalty strategy, automated reminders, and the marketing systems that keep chairs full on slow days.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Spas &amp; Massage Therapists</strong><div className="stat-desc">Repeat-visit strategy is everything here. We build the re-engagement system that keeps your books full month after month.</div></div>
+            <div className="stat-cell"><strong style={{display: 'block', fontSize: '17px', marginBottom: '8px'}}>Hair Stylists &amp; Studios</strong><div className="stat-desc">Client retention + referral programs + local visibility = a full book without paying for every new client.</div></div>
           </div>
           <p style={{marginTop: '24px', padding: '16px 20px', background: 'var(--paper-2)', borderRadius: '8px', color: 'var(--muted)', fontSize: '15px', lineHeight: '1.7'}}>
             Also: restaurants, landscapers, pest control, insurance agents, gyms, law firms, veterinarians, auto repair, cleaning services — <strong style={{color: 'var(--text)'}}>if you sell a local service, the playbook works.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask us about your industry →</a>
@@ -110,33 +133,49 @@ export default function Page() {
         </div>
       </section>
 
-      {/* ── OFFER GRID ── */}
+      {/* ── OFFER SECTION ── */}
       <section className="section section--alt">
         <div className="wrap">
           <span className="label">How we work together</span>
-          <h2 style={{marginTop: '14px'}}>Only pay for what you need.</h2>
-          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>No one-size-fits-all packages. Some owners want it built for them. Some want to learn as they go. Some just need someone in their corner each month. We have an option for each.</p>
-          <div className="offer-grid" style={{marginTop: '44px'}}>
-            <a className="offer-card offer-card--featured" href="/done-for-you/">
-              <span className="tag">Most popular</span>
+          <h2 style={{marginTop: '14px'}}>One program. Built around you.</h2>
+          <p className="lede" style={{marginTop: '18px', maxWidth: '60ch'}}>The Sprint is the flagship — live 1-on-1 teaching that builds your growth playbook and installs the systems. For owners who'd rather have our team handle the build, Done For You is available.</p>
+          <div className="offer-grid">
+            <div className="offer-card offer-card--featured">
+              <span className="tag" style={{display: 'inline-block', fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.1em', textTransform: 'uppercase', color: 'var(--c-e)', fontWeight: '700', marginBottom: '12px'}}>Flagship offer</span>
+              <h3>The 60-Day Profit Sprint</h3>
+              <p>Live 1-on-1 training for you and your team. We build your money model, customer acquisition plan, referral and review systems, and full automation install — together, start to finish, in 60 days.</p>
+              <p style={{marginTop: '14px', fontSize: '14px', fontStyle: 'italic', color: 'var(--muted)'}}>You'll add $20,000 in new revenue in 60 days — or I work for free until you do.</p>
+              <div style={{marginTop: '20px'}}>
+                <a className="btn btn--primary" href="/the-sprint/">Apply for the Sprint →</a>
+              </div>
+            </div>
+            <div className="offer-card">
               <h3>Done For You</h3>
-              <p>We build your entire growth and operations system — strategy, SOPs, and all the automations — then hand it off running. Best for owners who want the result without doing the build work themselves.</p>
-              <span className="more">See what's included →</span>
-            </a>
-            <a className="offer-card" href="/mentorship/">
-              <h3>Do It With You</h3>
-              <p>We coach you through the playbook every month — growth strategy, customer retention, marketing, operations, and the tools that tie it together. You build it. We make sure you build the right things.</p>
-              <p style={{marginTop: '12px', fontFamily: 'var(--mono)', fontSize: '13px', fontWeight: '700', color: 'var(--c-e)'}}>Starts at $399 / month</p>
-              <span className="more">Learn more →</span>
-            </a>
-            <a className="offer-card offer-card--giveaway" href="/giveaway/">
-              <span className="tag">Free · $20,000 value</span>
-              <h3>The Scholarship</h3>
-              <p>The full 6-month Done-For-You program — $20,000 in business growth services — awarded each cycle to the owner who demonstrates the greatest need. No purchase necessary.</p>
-              <p style={{marginTop: '10px', fontSize: '14px', fontWeight: '600', color: 'var(--c-m)'}}>Refer someone who wins → you also win the full scholarship.</p>
-              <span className="more">Apply for the $20,000 scholarship →</span>
-            </a>
+              <p>Prefer to hand it off? Our team builds and installs your full growth system — strategy, SOPs, and automations — then hands it off running. You approve decisions. We do the work.</p>
+              <div style={{marginTop: '20px'}}>
+                <a className="btn btn--ghost" href="/done-for-you/">Learn more →</a>
+              </div>
+            </div>
+            <div className="offer-card">
+              <h3>Not sure where to start?</h3>
+              <p>Book a free 20-minute call. We look at your business and tell you exactly where the highest-leverage growth move is — before you spend anything.</p>
+              <div style={{marginTop: '20px'}}>
+                <a className="btn btn--ghost" href="/contact/">Book a free call →</a>
+              </div>
+            </div>
           </div>
+        </div>
+      </section>
+
+      {/* ── OPERATOR CREDIBILITY ── */}
+      <section className="section section--alt">
+        <div className="wrap-narrow">
+          <span className="label">Who you're talking to</span>
+          <h2 style={{marginTop: '14px'}}>This isn't taught from a course. It's run from a business.</h2>
+          <blockquote className="op-quote">
+            "I've spent 20 years building businesses — and I still own and operate a multi-location service company across the Midwest. Every growth strategy I teach, I use. Every system I recommend, I've tested. I'm not a consultant who figured this out in a classroom."
+          </blockquote>
+          <p style={{marginTop: '24px', color: 'var(--muted)', fontSize: '17px', lineHeight: '1.7'}}>S.Y.S.T.E.M. KC exists because I kept watching capable business owners grind themselves into the ground — not because they lacked work ethic, but because nobody had ever shown them the actual playbook for growing a local service business. So I wrote it.</p>
         </div>
       </section>
 
@@ -147,10 +186,10 @@ export default function Page() {
           <h2 style={{marginTop: '14px'}}>Honest. Practical. You own everything.</h2>
           <div className="trust-grid" style={{marginTop: '36px'}}>
             {[
-              ['Growth strategy first', 'We don\'t touch tools until we know exactly what you\'re trying to grow and why. Strategy drives everything.'],
-              ['You own all of it', 'Every playbook, workflow, automation, and document we build is yours — you stay in control of everything we configure together.'],
-              ['No long-term contracts', 'Month-to-month. If you leave, everything transfers to you and keeps running.'],
-              ['Plain English', 'No jargon. No AI hype. One business owner talking to another about what actually produces results.'],
+              ['Growth strategy first', "We don't touch tools until we know exactly what you're trying to grow and why."],
+              ['You own all of it', 'Every playbook, workflow, automation, and document we build is yours — you stay in control of everything.'],
+              ['No long-term contracts', "Month-to-month. If you leave, everything transfers to you and keeps running."],
+              ['Plain English', "No jargon. No AI hype. One business owner talking to another about what actually produces results."],
             ].map(([title, desc]) => (
               <div className="trust-cell" key={title}>
                 <div className="tc-check">✓</div>
@@ -164,12 +203,11 @@ export default function Page() {
       {/* ── FINAL CTA ── */}
       <section className="cta-strip">
         <div className="wrap inner">
-          <h2>Ready to stop guessing and start growing?</h2>
-          <p className="sub">Apply to work with us. First conversation is free — we look at your business and tell you exactly what the highest-leverage move is before you spend a dollar.</p>
+          <h2>Ready to add $20,000 in new revenue?</h2>
+          <p className="sub">Apply to work with us. First conversation is free — we look at your business and tell you exactly where the highest-leverage move is.</p>
           <div className="actions">
             <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
-            <a className="btn btn--ghost-invert" href="/the-system/">See the full playbook</a>
-            <a className="btn btn--ghost-invert" href="/giveaway/">Enter the Scholarship →</a>
+            <a className="btn btn--ghost-invert" href="/the-sprint/">See the Sprint</a>
           </div>
         </div>
       </section>

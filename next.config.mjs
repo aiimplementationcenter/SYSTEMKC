@@ -10,7 +10,11 @@ const nextConfig = {
       { source: '/services/', destination: '/the-system/', permanent: true },
       { source: '/use-cases/', destination: '/the-system/', permanent: true },
       { source: '/free-audit/', destination: '/apply/', permanent: true },
-      { source: '/free-guide/', destination: '/giveaway/', permanent: true },
+      { source: '/free-guide/', destination: '/the-sprint/', permanent: true },
+      { source: '/giveaway/', destination: '/the-sprint/', permanent: true },
+      { source: '/giveaway/rules/', destination: '/the-sprint/', permanent: true },
+      { source: '/giveaway/refer/', destination: '/the-sprint/', permanent: true },
+      { source: '/mentorship/', destination: '/the-sprint/', permanent: false },
     ];
   },
 };

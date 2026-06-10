@@ -12,7 +12,7 @@ export default function Page() {
   <div className="wrap">
     <span className="label">The person behind it</span>
     <h1>20 years running businesses. Built the growth playbook we wished existed.</h1>
-    <p className="lede">S.Y.S.T.E.M. KC teaches local service business owners how to get more customers, earn more from each one, and build a business that doesn't fall apart when they step back. The tools and automations are how we make it run — the growth strategy is what we actually teach.</p>
+    <p className="lede">S.Y.S.T.E.M. KC teaches local service business owners how to get more customers, earn more from each one, and build a business that doesn't fall apart when they step back. The 60-Day Profit Sprint is live 1-on-1 training where we build your growth strategy and install the systems that run it — together, in 60 days.</p>
   </div>
 </header>
 
@@ -28,19 +28,23 @@ export default function Page() {
         <p>I'm <strong>Jason Dillon</strong> — founder of S.Y.S.T.E.M. KC and a 20-year operator who still owns and runs a multi-location service company. I'm not a consultant who figured this out in a classroom. I've run the payroll, answered the missed calls, lost the quote because I followed up too slow, and watched good customers disappear because I had no re-engagement system. I know exactly what's costing you money — because it cost me money first.</p>
         <p>I built S.Y.S.T.E.M. KC because the consulting practice I needed didn't exist. Everything I found was either software salespeople dressed as consultants, or online courses built by people who'd never actually run a service business. I wanted someone who would walk into my operation, look at my actual numbers, and tell me what to fix first — in plain English, without a twelve-month contract.</p>
         <h2>What we actually teach</h2>
-        <p>The name is the mission: <strong>Save Yourself Stress, Time, Energy, and Money.</strong> We do that by teaching three things, in order:</p>
+        <p>The name is the mission: <strong>Save Yourself Stress, Time, Energy, and Money.</strong> We do that by working through six pillars:</p>
         <ul>
-          <li><strong>How to get more customers</strong> — local visibility, reviews, referrals, marketing that converts, and customer acquisition systems that don't require more ad spend every month.</li>
-          <li><strong>How to make more from each one</strong> — pricing strategy, retention, repeat visits, upsells, and the customer lifetime value math that changes how you think about every job you close.</li>
-          <li><strong>How to run it without you</strong> — the automations, SOPs, and workflows that execute the first two without you doing it manually every day.</li>
+          <li><strong>How to build a better offer and money model</strong> — pricing, offer clarity, and where revenue is currently leaking.</li>
+          <li><strong>How to get more customers</strong> — marketing, referrals, reviews, reactivation, and the channels where your buyers actually exist.</li>
+          <li><strong>How to convert more leads</strong> — sales process, speed-to-lead, and the follow-up sequence that closes leads that used to die.</li>
+          <li><strong>How to make more from each customer</strong> — pricing, upsells, retention, and customer lifetime value math.</li>
+          <li><strong>How to build referral and review systems that run automatically</strong> — installed after every completed job, without anyone having to remember to ask.</li>
+          <li><strong>How to run it without you</strong> — automations, SOPs, and documented workflows that let your team run the business without you narrating every step.</li>
         </ul>
-        <p>Most consultants start with the third item. We start with the first.</p>
+        <p>Most consultants start with the last item. We start with the first.</p>
         <h2>How we work</h2>
         <p>Three principles, every engagement:</p>
         <ul>
           <li><strong>Plain English over jargon.</strong> If we can't explain it without acronyms, we don't sell it.</li>
           <li><strong>Yours either way.</strong> Every playbook, SOP, workflow, and automation we build belongs to you from day one. Leave any time — it all comes with you.</li>
           <li><strong>Month-to-month.</strong> No annual lock-ins. No proprietary black boxes. No contracts you can't exit.</li>
+          <li><strong>Live, 1-on-1.</strong> This isn't a course with homework. The Sprint is live sessions with you and your team — built around your business, not a generic curriculum.</li>
         </ul>
         <h2>The tools we use</h2>
         <p>We start with what you already have. Before recommending anything new, we map your existing stack and find how much we can build on top of it. Where you need something new, we help you choose and configure it for your specific operation. The goal is always the right tool for your business — not the most impressive one.</p>
@@ -85,7 +89,7 @@ export default function Page() {
     <p className="sub">First conversation is free. We look at your business and tell you exactly where the highest-leverage growth move is — before you spend anything.</p>
     <div className="actions">
       <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
-      <a className="btn btn--ghost-invert" href="/the-system/">See the full playbook</a>
+      <a className="btn btn--ghost-invert" href="/the-sprint/">See the Sprint →</a>
     </div>
   </div>
 </section>

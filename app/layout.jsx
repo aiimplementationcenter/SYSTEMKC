@@ -1,8 +1,9 @@
 import './globals.css';
+import StickyRibbon from './components/StickyRibbon';
 
 export const metadata = {
-  title: 'S.Y.S.T.E.M. KC — Build a More Profitable Business',
-  description: 'We rebuild how your service business makes money, then install the systems and workflows that run it without you.',
+  title: 'S.Y.S.T.E.M. KC — Add $20,000 in New Revenue in 60 Days. Guaranteed.',
+  description: 'We teach local service business owners how to get more customers, earn more from each one, and build a business that runs without them. The 60-Day Profit Sprint: add $20,000 in new revenue or we work for free.',
 };
 
 export default function RootLayout({ children }) {
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       </head>
       <body>
+        <StickyRibbon />
         <Nav />
         {children}
         <Footer />
@@ -29,10 +31,9 @@ function Nav() {
           <img src="/assets/SYSTEM Logo.png" alt="S.Y.S.T.E.M. KC" />
         </a>
         <div className="nav-links">
+          <a href="/the-sprint/">The Sprint</a>
           <a href="/the-system/">How It Works</a>
           <a href="/done-for-you/">Done For You</a>
-          <a href="/mentorship/">Mentorship</a>
-          <a href="/giveaway/">🎁 Scholarship</a>
           <a href="/results/">Results</a>
           <a href="/about/">About</a>
           <a href="/kansas-city/" className="nav-local">Kansas City</a>
@@ -55,9 +56,8 @@ function Footer() {
           </div>
           <div className="foot-col">
             <h5>Work Together</h5>
+            <a href="/the-sprint/">The 60-Day Sprint</a>
             <a href="/done-for-you/">Done For You</a>
-            <a href="/mentorship/">Mentorship</a>
-            <a href="/giveaway/">The Scholarship</a>
             <a href="/apply/">Apply</a>
             <a href="/contact/">Book a Call</a>
           </div>
@@ -66,7 +66,7 @@ function Footer() {
             <a href="/the-system/">How It Works</a>
             <a href="/results/">Results</a>
             <a href="/about/">About</a>
-            <a href="/industries/">Industries</a>
+            <a href="/faq/">FAQ</a>
             <a href="/blog/">Blog</a>
           </div>
           <div className="foot-col">
