@@ -83,15 +83,6 @@ export default function ApplyForm() {
         />
       </div>
 
-      <div className="form-row">
-        <label htmlFor="ap-location">Are you in the Kansas City metro area?</label>
-        <select id="ap-location" name="location">
-          <option value="">Select…</option>
-          <option value="yes-kc">Yes — KC metro or within 90 min</option>
-          <option value="no-remote">No — I work remotely</option>
-        </select>
-      </div>
-
       <div className="form-row" style={{display: 'flex', alignItems: 'flex-start', gap: '10px'}}>
         <input id="ap-consent" name="sms_consent" type="checkbox" value="yes" style={{marginTop: '4px', flexShrink: 0}} />
         <label htmlFor="ap-consent" style={{fontSize: '14px', color: 'var(--muted)', lineHeight: '1.6', cursor: 'pointer'}}>
