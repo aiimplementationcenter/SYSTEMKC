@@ -160,14 +160,14 @@ export default function ChallengePage() {
                 <div style={{fontFamily: 'var(--sans)', fontSize: '18px', fontWeight: '800', color: '#fff', lineHeight: '1.3'}}>$20,000+ in new revenue, or I work free</div>
               </div>
               <div style={{textAlign: 'center'}}>
-                <div style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,.5)', marginBottom: '8px'}}>An agency month</div>
-                <div style={{fontFamily: 'var(--sans)', fontSize: '18px', fontWeight: '800', color: '#fff', lineHeight: '1.3'}}>$3,000&ndash;$5,000</div>
-                <div style={{fontSize: '13px', color: 'rgba(255,255,255,.45)', marginTop: '6px', lineHeight: '1.4'}}>per month, ongoing, no guarantee</div>
+                <div style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.12em', textTransform: 'uppercase', color: 'rgba(255,255,255,.5)', marginBottom: '8px'}}>An agency</div>
+                <div style={{fontFamily: 'var(--sans)', fontSize: '18px', fontWeight: '800', color: '#fff', lineHeight: '1.3'}}>Same cost, every month</div>
+                <div style={{fontSize: '13px', color: 'rgba(255,255,255,.45)', marginTop: '6px', lineHeight: '1.4'}}>ongoing, forever, no guarantee</div>
               </div>
               <div style={{textAlign: 'center', background: 'rgba(16,185,129,.15)', borderRadius: '12px', padding: '16px 12px'}}>
                 <div style={{fontFamily: 'var(--mono)', fontSize: '11px', letterSpacing: '.12em', textTransform: 'uppercase', color: 'var(--green)', marginBottom: '8px'}}>Your investment</div>
-                <div style={{fontFamily: 'var(--sans)', fontSize: '22px', fontWeight: '900', color: '#fff', lineHeight: '1.2'}}>$3,000&ndash;$5,000</div>
-                <div style={{fontSize: '13px', color: 'rgba(255,255,255,.6)', marginTop: '6px', lineHeight: '1.4'}}>one time &mdash; about one agency month, with a $20K guarantee</div>
+                <div style={{fontFamily: 'var(--sans)', fontSize: '18px', fontWeight: '800', color: '#fff', lineHeight: '1.3'}}>About one agency month</div>
+                <div style={{fontSize: '13px', color: 'rgba(255,255,255,.6)', marginTop: '6px', lineHeight: '1.4'}}>one time &mdash; with a $20,000 guarantee</div>
               </div>
             </div>
             <div style={{marginTop: '28px', textAlign: 'center'}}>
