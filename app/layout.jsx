@@ -1,8 +1,8 @@
-﻿import './globals.css';
+import './globals.css';
 import StickyRibbon from './components/StickyRibbon';
 
 export const metadata = {
-  title: 'S.Y.S.T.E.M. KC â€” Add $20,000 in New Revenue in 60 Days. Guaranteed.',
+  title: 'S.Y.S.T.E.M. KC — Add $20,000 in New Revenue in 60 Days. Guaranteed.',
   description: 'We teach local service business owners how to get more customers, earn more from each one, and build a business that runs without them. The 60-Day Profit Challenge: add $20,000 in new revenue or we work for free.',
 };
 
@@ -38,7 +38,7 @@ function Nav() {
           <a href="/about/">About</a>
           <a href="/kansas-city/" className="nav-local">Kansas City</a>
         </div>
-        <a className="nav-cta" href="/apply/">Apply Now &nbsp;â†’</a>
+        <a className="nav-cta" href="/apply/">Apply Now &nbsp;→</a>
       </div>
     </nav>
   );
@@ -51,7 +51,7 @@ function Footer() {
         <div className="foot-top">
           <div className="foot-brand">
             <img src="/assets/SYSTEM Logo.png" alt="S.Y.S.T.E.M. KC" />
-            <p className="blurb">We rebuild how your service business makes money â€” then install the systems and workflows that run it on autopilot.</p>
+            <p className="blurb">We rebuild how your service business makes money — then install the systems and workflows that run it on autopilot.</p>
             <p className="blurb" style={{marginTop: '10px', fontSize: '13px'}}>S.Y.S.T.E.M. = Save Yourself Stress, Time, Energy, Money</p>
           </div>
           <div className="foot-col">
@@ -81,7 +81,7 @@ function Footer() {
           </div>
         </div>
         <div className="foot-bot">
-          <div>Â© 2026 S.Y.S.T.E.M. KC LLC Â· Kansas City, MO Â· <a href="tel:8169622111" style={{color: 'inherit'}}>(816) 962-2111</a></div>
+          <div>© 2026 S.Y.S.T.E.M. KC LLC · Kansas City, MO · <a href="tel:8169622111" style={{color: 'inherit'}}>(816) 962-2111</a></div>
           <div className="legal">
             <a href="/privacy-policy/">Privacy</a>
             <a href="/terms/">Terms &amp; SMS</a>

@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'Blog | Field notes from KC small-business automation work | S.Y.S.T.E.M. KC',
   description: 'Practical posts on what we see inside Kansas City small businesses — automation strategy, real numbers, and what to do about the time leaks.',
 };

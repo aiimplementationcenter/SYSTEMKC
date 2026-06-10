@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'What Is a Business Automation Audit? (And Why Every KC Business Should Get One) | S.Y.S.T.E.M. KC',
   description: 'The cheapest piece of business advice you\'ll ever buy. What an audit covers, what you walk away with, and why it works even if you never hire the consultant.',
 };

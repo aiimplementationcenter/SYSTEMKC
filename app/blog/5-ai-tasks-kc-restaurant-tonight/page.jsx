@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: '5 Business Tasks AI Can Handle for Your KC Restaurant Starting Tonight | S.Y.S.T.E.M. KC',
   description: 'No POS replacement. No fancy ordering robot. Just five operational tasks AI handles better than the manager scrambling at 11pm.',
 };

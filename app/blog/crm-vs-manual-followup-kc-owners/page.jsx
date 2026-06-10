@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'All-in-One CRM vs. Manual Follow-Up: What KC Business Owners Are Discovering | S.Y.S.T.E.M. KC',
   description: 'The actual numbers, not the marketing. What changes when a KC business owner stops chasing leads manually and starts running a system.',
 };

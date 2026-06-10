@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'AI Automation Training for KC Business Owners | S.Y.S.T.E.M. KC',
   description: 'Side-by-side AI automation training in Kansas City. We build with you using your real data, write plain-English SOPs, and leave you fully in control. 30-day support included.',
 };

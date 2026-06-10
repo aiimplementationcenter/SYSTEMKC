@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'How to Choose a Business Automation Consultant (What to Look For) | S.Y.S.T.E.M. KC',
   description: 'Red flags, green flags, and the questions to ask before you write a check. From a consultant who hates how the industry pitches itself.',
 };

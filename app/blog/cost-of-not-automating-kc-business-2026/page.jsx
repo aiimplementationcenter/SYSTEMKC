@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'The Real Cost of Not Automating Your KC Business in 2026 | S.Y.S.T.E.M. KC',
   description: 'The hidden bill you\'re already paying: missed calls, slow follow-up, no-shows, and a thousand $0 invoices that never get sent. Quantified.',
 };

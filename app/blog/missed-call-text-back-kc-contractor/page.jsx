@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'Missed Call Text Back: The Automation Every KC Contractor Needs | S.Y.S.T.E.M. KC',
   description: '62% of small business calls go unanswered. 85% of those callers never try again. Here\'s the $39/mo fix that recovers 30–50% of them.',
 };

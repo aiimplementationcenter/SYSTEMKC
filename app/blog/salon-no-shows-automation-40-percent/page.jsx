@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'Salon Appointment No-Shows: How Automation Cuts Them by 40% | S.Y.S.T.E.M. KC',
   description: 'The 3-touch reminder sequence that drops salon no-shows from 16% to 6% in 60 days. Works for solo stylists too.',
 };

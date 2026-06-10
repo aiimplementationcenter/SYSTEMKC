@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'Locations | Kansas City Region Automation Service Area | S.Y.S.T.E.M. KC',
   description: 'In-person automation consulting across the Kansas City region: OP, Lee\\u2019s Summit, Olathe, Lenexa, Northland, Blue Springs, Shawnee, Crossroads, Topeka, St. Joseph, Warrensburg.',
 };

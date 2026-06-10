@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'AI Isn\'t Replacing the Workforce | It\'s Filling the Gaps Your Team Was Never Going to Cover | S.Y.S.T.E.M. KC',
   description: 'The honest, on-the-ground take from inside Kansas City small businesses: AI isn\'t taking jobs. It\'s doing the work your team has been admitting they don\'t have time for — and creating new roles in the process.',
 };

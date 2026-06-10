@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'Industries | KC Small-Business Automation by Sector | S.Y.S.T.E.M. KC',
   description: 'Industry-specific AI automation for Kansas City small businesses: HVAC, real estate, restaurants, law firms, medical & dental, salons.',
 };

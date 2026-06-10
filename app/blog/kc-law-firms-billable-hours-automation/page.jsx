@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'How KC Law Firms Are Recovering Billable Hours with Automation | S.Y.S.T.E.M. KC',
   description: 'Every hour spent on intake, follow-up, or invoice chasing is a billable hour not captured. The math for a 3-attorney KC firm.',
 };

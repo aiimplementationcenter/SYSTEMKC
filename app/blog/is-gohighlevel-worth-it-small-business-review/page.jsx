@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'Is an All-in-One CRM Worth It for Small Business? (Honest Review) | S.Y.S.T.E.M. KC',
   description: 'The case for and against the all-in-one CRM bundles being pitched to KC small businesses. What you actually need vs. what gets sold.',
 };

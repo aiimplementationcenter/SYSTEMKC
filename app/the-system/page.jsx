@@ -1,25 +1,25 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'The Growth Playbook | How S.Y.S.T.E.M. KC Works',
-  description: 'The 60-Day Profit Challenge works through six pillars â€” Offers & Money Model, Marketing & Lead Gen, Sales & Conversion, Speed-to-Lead, Referrals & Reviews, and Operations & Automation. Live 1-on-1 training, not a course.',
+  description: 'The 60-Day Profit Challenge works through six pillars — Offers & Money Model, Marketing & Lead Gen, Sales & Conversion, Speed-to-Lead, Referrals & Reviews, and Operations & Automation. Live 1-on-1 training, not a course.',
 };
 
 export default function Page() {
   return (
     <main>
 
-      <div className="wrap"><div className="crumbs"><a href="/">Home</a><span className="sep">Â·</span><span className="here">How It Works</span></div></div>
+      <div className="wrap"><div className="crumbs"><a href="/">Home</a><span className="sep">·</span><span className="here">How It Works</span></div></div>
 
-      {/* â”€â”€ HERO â”€â”€ */}
+      {/* ── HERO ── */}
       <section className="nat-hero">
         <div className="wrap">
-          <span className="label">The 60-Day Profit Challenge â€” how it works</span>
+          <span className="label">The 60-Day Profit Challenge — how it works</span>
           <h1 className="nat-h1">You don't have a tools problem. You have a growth strategy problem.</h1>
-          <p className="nat-lede">The Sprint works through six pillars in 60 days of live 1-on-1 training â€” covering everything from your offer and money model to the automations that run the business without you. This isn't a course with homework. It's live sessions built around your specific numbers, your market, and your gaps.</p>
+          <p className="nat-lede">The Sprint works through six pillars in 60 days of live 1-on-1 training — covering everything from your offer and money model to the automations that run the business without you. This isn't a course with homework. It's live sessions built around your specific numbers, your market, and your gaps.</p>
           <p className="nat-sub">That's what we teach. The tools and automations are just how we make it stick.</p>
         </div>
       </section>
 
-      {/* â”€â”€ THE SIX PILLARS â”€â”€ */}
+      {/* ── THE SIX PILLARS ── */}
       <section className="section">
         <div className="wrap">
           <span className="label">The six pillars</span>
@@ -31,7 +31,7 @@ export default function Page() {
               <div className="proc-month">Pillar 1</div>
               <div>
                 <h3>Offers &amp; Money Model</h3>
-                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>We start where the money is: your pricing, your offer, and where revenue is currently leaking. We audit what you charge vs. what the market will bear, redesign your offer for maximum clarity and conversion, and identify the 2â€“3 highest-ROI changes you can make this week.</p>
+                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>We start where the money is: your pricing, your offer, and where revenue is currently leaking. We audit what you charge vs. what the market will bear, redesign your offer for maximum clarity and conversion, and identify the 2–3 highest-ROI changes you can make this week.</p>
               </div>
             </div>
 
@@ -39,7 +39,7 @@ export default function Page() {
               <div className="proc-month">Pillar 2</div>
               <div>
                 <h3>Marketing &amp; Lead Gen</h3>
-                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>We map every channel where your customers actually exist â€” Google, Facebook, Instagram, TikTok, Nextdoor, your existing database, email. You'll know exactly what to post, where to post it, and how to measure whether it's working. We also show you how to create content that attracts local customers without spending hours on it.</p>
+                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>We map every channel where your customers actually exist — Google, Facebook, Instagram, TikTok, Nextdoor, your existing database, email. You'll know exactly what to post, where to post it, and how to measure whether it's working. We also show you how to create content that attracts local customers without spending hours on it.</p>
               </div>
             </div>
 
@@ -55,7 +55,7 @@ export default function Page() {
               <div className="proc-month">Pillar 4</div>
               <div>
                 <h3>Speed-to-Lead &amp; Follow-Up</h3>
-                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>78% of buyers go with whoever responds first. We build the response system that makes sure you're always first â€” automated acknowledgment within seconds, follow-up for days and weeks, and the conversion sequence that closes leads who went quiet.</p>
+                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>78% of buyers go with whoever responds first. We build the response system that makes sure you're always first — automated acknowledgment within seconds, follow-up for days and weeks, and the conversion sequence that closes leads who went quiet.</p>
               </div>
             </div>
 
@@ -63,7 +63,7 @@ export default function Page() {
               <div className="proc-month">Pillar 5</div>
               <div>
                 <h3>Referral &amp; Review Systems</h3>
-                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>Your existing customers are your highest-converting lead source â€” and most businesses never ask them properly. We design and install a referral program and review engine that run automatically after every completed job.</p>
+                <p style={{marginTop: '12px', fontSize: '17px', lineHeight: '1.8'}}>Your existing customers are your highest-converting lead source — and most businesses never ask them properly. We design and install a referral program and review engine that run automatically after every completed job.</p>
               </div>
             </div>
 
@@ -79,27 +79,27 @@ export default function Page() {
         </div>
       </section>
 
-      {/* â”€â”€ THE FORMAT â”€â”€ */}
+      {/* ── THE FORMAT ── */}
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">The format</span>
           <h2 style={{marginTop: '14px'}}>Live. 1-on-1. Not a course with homework.</h2>
-          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>This isn't a program of video lessons you watch alone at night and try to apply the next day. It's live sessions with you and your management team, scheduled around your business. Jason works directly with you â€” not a junior coach. Every session is built around your specific numbers, your specific market, and your specific growth gaps.</p>
-          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>You leave each session with something done â€” not just learned. The playbook, the automations, the SOPs â€” they're built during the sessions, not assigned as homework.</p>
+          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>This isn't a program of video lessons you watch alone at night and try to apply the next day. It's live sessions with you and your management team, scheduled around your business. Jason works directly with you — not a junior coach. Every session is built around your specific numbers, your specific market, and your specific growth gaps.</p>
+          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>You leave each session with something done — not just learned. The playbook, the automations, the SOPs — they're built during the sessions, not assigned as homework.</p>
         </div>
       </section>
 
-      {/* â”€â”€ HOW TOOLS FIT â”€â”€ */}
+      {/* ── HOW TOOLS FIT ── */}
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">How tools fit in</span>
           <h2 style={{marginTop: '14px'}}>We start with what you already have.</h2>
-          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Before recommending anything new, we map what you're already using â€” your CRM, your scheduling software, your phone system, whatever's already in place. Most of the time we can build a significant amount of the strategy on top of tools you already pay for. Where gaps exist, we help you find and set up the right addition for your situation.</p>
-          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>The goal is the right tool for your business â€” not the most tools, not the fanciest stack. Everything we configure and build stays with you regardless of which tools we end up using.</p>
+          <p style={{marginTop: '20px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>Before recommending anything new, we map what you're already using — your CRM, your scheduling software, your phone system, whatever's already in place. Most of the time we can build a significant amount of the strategy on top of tools you already pay for. Where gaps exist, we help you find and set up the right addition for your situation.</p>
+          <p style={{marginTop: '16px', fontSize: '17px', lineHeight: '1.8', color: 'var(--muted)'}}>The goal is the right tool for your business — not the most tools, not the fanciest stack. Everything we configure and build stays with you regardless of which tools we end up using.</p>
         </div>
       </section>
 
-      {/* â”€â”€ WHO THIS WORKS FOR â”€â”€ */}
+      {/* ── WHO THIS WORKS FOR ── */}
       <section className="section">
         <div className="wrap">
           <span className="label">Who sees the biggest results</span>
@@ -108,7 +108,7 @@ export default function Page() {
           <div className="three-col" style={{marginTop: '40px'}}>
             {[
               ['HVAC & Plumbing', 'More visible on Google, faster response to leads, a referral program that fills slow seasons, and review automation that builds trust before you answer the phone.'],
-              ['Roofing & Contractors', 'A marketing system that turns every finished job into 2â€“3 referrals, follow-up sequences that close the quotes you\'re currently losing, and a local visibility strategy that makes you the obvious choice.'],
+              ['Roofing & Contractors', 'A marketing system that turns every finished job into 2–3 referrals, follow-up sequences that close the quotes you\'re currently losing, and a local visibility strategy that makes you the obvious choice.'],
               ['Real Estate', 'A lead response system that wins on speed, a past-client reactivation campaign that generates listings from your existing database, and a referral program that turns your buyers into your best source of new business.'],
               ['Salons, Nail Salons & Spas', 'Rebooking strategy, a review engine that builds your Google rating automatically, and a referral program that turns regulars into your marketing team.'],
               ['Barber Shops', 'Loyalty and retention strategy, automated appointment reminders that cut no-shows, and the local marketing system that fills chairs on slow Tuesdays.'],
@@ -124,45 +124,45 @@ export default function Page() {
             ))}
           </div>
           <p style={{marginTop: '28px', padding: '16px 20px', background: 'var(--paper-2)', borderRadius: '8px', color: 'var(--muted)', fontSize: '15px', lineHeight: '1.7'}}>
-            Also: landscapers, pest control, gyms, veterinarians, auto repair, cleaning services, insurance agents, and more. <strong style={{color: 'var(--text)'}}>If you sell a local service, the growth playbook works.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask about your industry â†’</a>
+            Also: landscapers, pest control, gyms, veterinarians, auto repair, cleaning services, insurance agents, and more. <strong style={{color: 'var(--text)'}}>If you sell a local service, the growth playbook works.</strong> <a href="/contact/" style={{color: 'var(--c-e)', fontWeight: '600'}}>Ask about your industry →</a>
           </p>
         </div>
       </section>
 
-      {/* â”€â”€ TIMELINE â”€â”€ */}
+      {/* ── TIMELINE ── */}
       <section className="section section--alt">
         <div className="wrap-narrow">
           <span className="label">What to expect</span>
           <h2 style={{marginTop: '14px'}}>A typical Done-For-You or Sprint engagement.</h2>
           <div className="process-steps" style={{marginTop: '36px'}}>
             <div className="proc-step">
-              <div className="proc-month">Week 1â€“2</div>
-              <div><p>Full business review â€” we map your current customer acquisition channels, revenue per customer, pricing model, and the biggest gaps in your growth strategy. You get a written summary of what we found and what to fix first.</p></div>
+              <div className="proc-month">Week 1–2</div>
+              <div><p>Full business review — we map your current customer acquisition channels, revenue per customer, pricing model, and the biggest gaps in your growth strategy. You get a written summary of what we found and what to fix first.</p></div>
             </div>
             <div className="proc-step">
-              <div className="proc-month">Week 3â€“4</div>
-              <div><p>Priority growth moves â€” we address the highest-ROI item first. Usually that's a combination of local visibility, a referral system, and fixing the lead follow-up that's currently leaking revenue.</p></div>
+              <div className="proc-month">Week 3–4</div>
+              <div><p>Priority growth moves — we address the highest-ROI item first. Usually that's a combination of local visibility, a referral system, and fixing the lead follow-up that's currently leaking revenue.</p></div>
             </div>
             <div className="proc-step">
               <div className="proc-month">Month 2</div>
-              <div><p>Full system build â€” the automations and tools that execute your growth strategy get built, tested, and installed. You approve every step. Nothing goes live until it works and you've seen it.</p></div>
+              <div><p>Full system build — the automations and tools that execute your growth strategy get built, tested, and installed. You approve every step. Nothing goes live until it works and you've seen it.</p></div>
             </div>
             <div className="proc-step">
               <div className="proc-month">Month 3+</div>
-              <div><p>Handoff and support â€” the system runs. We monitor, adjust, and keep building as your business grows. The growth playbook and every tool we install belong to you from day one.</p></div>
+              <div><p>Handoff and support — the system runs. We monitor, adjust, and keep building as your business grows. The growth playbook and every tool we install belong to you from day one.</p></div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* â”€â”€ CTA â”€â”€ */}
+      {/* ── CTA ── */}
       <section className="cta-strip">
         <div className="wrap inner">
           <h2>Ready to see the playbook for your business?</h2>
-          <p className="sub">Apply to work together. First conversation is free â€” we look at your business and tell you exactly where the highest-leverage growth move is before you spend anything.</p>
+          <p className="sub">Apply to work together. First conversation is free — we look at your business and tell you exactly where the highest-leverage growth move is before you spend anything.</p>
           <div className="actions">
-            <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">â†’</span></a>
-            <a className="btn btn--ghost-invert" href="/the-challenge/">See the Sprint â†’</a>
+            <a className="btn btn--invert" href="/apply/">Apply Now <span className="arrow">→</span></a>
+            <a className="btn btn--ghost-invert" href="/the-challenge/">See the Sprint →</a>
           </div>
         </div>
       </section>

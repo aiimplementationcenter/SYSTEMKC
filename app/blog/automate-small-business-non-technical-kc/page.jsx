@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'How to Automate Your Small Business Without Being Technical (KC Guide) | S.Y.S.T.E.M. KC',
   description: 'You don\'t need a CS degree, a developer, or a $30k consultant to automate the work that\'s eating your week. Here\'s the order to do it in for KC small business owners.',
 };

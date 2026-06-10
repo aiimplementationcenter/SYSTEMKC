@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'How Kansas City Real Estate Agents Are Using AI to Follow Up Leads Automatically | S.Y.S.T.E.M. KC',
   description: 'The 5-minute window matters more than the price of your headshot. How KC agents are winning Zillow leads while they\'re at the closing table.',
 };

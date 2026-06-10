@@ -1,4 +1,4 @@
-﻿export const metadata = {
+export const metadata = {
   title: 'AI Tools for Small Business Owners: What\'s Actually Worth Using in 2026 | S.Y.S.T.E.M. KC',
   description: 'Cutting through the noise. The handful of AI tools small business owners actually get value from — and the ones to ignore.',
 };
