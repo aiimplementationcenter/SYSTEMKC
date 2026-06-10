@@ -201,6 +201,20 @@ export default function Page() {
       </section>
 
       {/* â"€â"€ FINAL CTA â"€â"€ */}
+      {/* PRE-CTA */}
+      <section style={{background: 'var(--blue-deep)', padding: '96px 0'}}>
+        <div className="wrap-narrow" style={{textAlign: 'center'}}>
+          <p style={{fontFamily: 'var(--mono)', fontSize: '12px', letterSpacing: '.18em', textTransform: 'uppercase', color: 'var(--green)', fontWeight: '700', marginBottom: '28px'}}>Who we work with</p>
+          <h2 style={{fontFamily: 'var(--sans)', fontSize: 'clamp(32px, 4.5vw, 58px)', fontWeight: '900', lineHeight: '1.1', letterSpacing: '-.03em', color: '#fff', maxWidth: '22ch', margin: '0 auto'}}>We only work with owners who are serious about growth.</h2>
+          <p style={{marginTop: '28px', fontSize: 'clamp(18px, 2vw, 22px)', lineHeight: '1.65', color: 'rgba(255,255,255,.7)', maxWidth: '52ch', margin: '28px auto 0'}}>Most business owners left a 40-hour job &mdash; and ended up working 100 hours a week to avoid going back. The hustle isn't the problem. The missing playbook is. We fix the model so the business grows without the grind.</p>
+          <p style={{marginTop: '32px', fontFamily: 'var(--serif)', fontStyle: 'italic', fontSize: 'clamp(22px, 2.5vw, 30px)', color: '#fff', fontWeight: '400', lineHeight: '1.3'}}>Success starts here &mdash; not with more hours, but with the right system.</p>
+          <div style={{marginTop: '40px', display: 'flex', gap: '12px', flexWrap: 'wrap', justifyContent: 'center'}}>
+            <a className="btn btn--primary" href="/apply/" style={{fontSize: '18px', padding: '18px 36px'}}>Apply Now &rarr;</a>
+            <a className="btn btn--ghost-invert" href="/the-challenge/">See the 60-Day Challenge</a>
+          </div>
+        </div>
+      </section>
+
       <section className="cta-strip">
         <div className="wrap inner">
           <h2>Ready to add $20,000 in new revenue?</h2>
