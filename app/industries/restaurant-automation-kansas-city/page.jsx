@@ -1,8 +1,8 @@
 import FaqAccordion from '../../components/FaqAccordion';
 
 export const metadata = {
-  title: 'The 60-Day Profit Challenge for Kansas City Restaurants | S.Y.S.T.E.M. KC',
-  description: 'Live 1-on-1 business growth training for restaurant owners in Kansas City. Add $20,000 in new restaurant revenue in 60 days &mdash; guaranteed.',
+  title: 'The 60-Day Profit Challenge for Restaurant Owners | S.Y.S.T.E.M. KC',
+  description: 'Live 1-on-1 business growth training for independent restaurant owners. Add $20,000 in new restaurant revenue in 60 days &mdash; guaranteed.',
 };
 
 export default function Page() {
@@ -15,9 +15,9 @@ export default function Page() {
       {/* HERO */}
       <header className="page-hero">
         <div className="wrap">
-          <span className="label">For Restaurants &amp; Food Service &middot; Kansas City</span>
+          <span className="label">For Restaurants &amp; Food Service </span>
           <h1>More covers, higher ticket, no-shows slashed. Add $20,000 in new restaurant revenue in 60 days.</h1>
-          <p className="lede">KC has one of the best food scenes in the country &mdash; and the operators running it are exhausted. The 60-Day Profit Challenge teaches restaurant owners how to fix the money model, fill the dining room, and build the operational layer that means you can actually take a Tuesday off.</p>
+          <p className="lede">Independent restaurant operators &mdash; and the operators running it are exhausted. The 60-Day Profit Challenge teaches restaurant owners how to fix the money model, fill the dining room, and build the operational layer that means you can actually take a Tuesday off.</p>
           <p style={{fontStyle: 'italic', fontSize: '16px', color: 'var(--muted)', marginTop: '12px'}}>Add $20,000 in new revenue in 60 days &mdash; or I work for free until you do.</p>
           <div className="actions">
             <a className="btn btn--primary" href="/apply/">Apply Now &rarr;</a>
@@ -55,13 +55,13 @@ export default function Page() {
             </div>
             <div className="card">
               <span className="tag">02 &middot; Customer Acquisition</span>
-              <h3>Get found by more KC diners</h3>
+              <h3>Get found by more local diners</h3>
               <p>Google Business Profile, Yelp, Instagram, local SEO. We map where your customers are searching and build the system that keeps you at the top of results on a Friday night.</p>
             </div>
             <div className="card">
               <span className="tag">03 &middot; No-Show Reduction</span>
               <h3>An empty reserved table at 7pm Saturday is money lost</h3>
-              <p>Multi-touch reservation reminders, easy reschedule links, confirmation flows. KC restaurants typically see no-shows drop 30&ndash;50% in 60 days.</p>
+              <p>Multi-touch reservation reminders, easy reschedule links, confirmation flows. Restaurants typically see no-shows drop 30&ndash;50% in 60 days.</p>
             </div>
             <div className="card">
               <span className="tag">04 &middot; Customer Retention</span>
@@ -88,7 +88,7 @@ export default function Page() {
           <div className="section-head">
             <div>
               <span className="label">A day in the life</span>
-              <h2 style={{marginTop: '14px'}}>A 40-seat KC restaurant, after 60 days.</h2>
+              <h2 style={{marginTop: '14px'}}>A 40-seat restaurant, after 60 days.</h2>
             </div>
           </div>
           <div style={{display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '48px'}}>
@@ -145,7 +145,7 @@ export default function Page() {
             </div>
             <div className="faq-item">
               <button className="faq-q"><span className="qnum">Q.02</span><span className="qtxt">How does this work for restaurants?</span><span className="qicn">+</span></button>
-              <div className="faq-a">For restaurants, the Challenge focuses on the highest-leverage revenue moves: menu engineering and ticket size, filling the dining room (Google, social, local SEO), no-show reduction, customer retention mechanics, and the review engine that makes you the obvious choice when someone searches for dinner on Friday. We have worked with KC restaurants and the playbook is built for independent operators, not chains.</div>
+              <div className="faq-a">For restaurants, the Challenge focuses on the highest-leverage revenue moves: menu engineering and ticket size, filling the dining room (Google, social, local SEO), no-show reduction, customer retention mechanics, and the review engine that makes you the obvious choice when someone searches for dinner on Friday. We have worked with restaurant owners across the country and the playbook is built for independent operators, not chains.</div>
             </div>
             <div className="faq-item">
               <button className="faq-q"><span className="qnum">Q.03</span><span className="qtxt">Is this a course or a coach?</span><span className="qicn">+</span></button>

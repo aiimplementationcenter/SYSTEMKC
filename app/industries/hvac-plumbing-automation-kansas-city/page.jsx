@@ -2,7 +2,7 @@ import FaqAccordion from '../../components/FaqAccordion';
 
 export const metadata = {
   title: 'The 60-Day Profit Challenge for HVAC &amp; Plumbing Companies | S.Y.S.T.E.M. KC',
-  description: 'Live 1-on-1 business growth training for HVAC, plumbing and home-services owners in Kansas City. Add $20,000 in new trades revenue in 60 days &mdash; guaranteed.',
+  description: 'Live 1-on-1 business growth training for HVAC, plumbing and home-services owners . Add $20,000 in new trades revenue in 60 days &mdash; guaranteed.',
 };
 
 export default function Page() {
@@ -15,7 +15,7 @@ export default function Page() {
       {/* HERO */}
       <header className="page-hero">
         <div className="wrap">
-          <span className="label">For HVAC, Plumbing &amp; Home Services &middot; Kansas City</span>
+          <span className="label">For HVAC, Plumbing &amp; Home Services </span>
           <h1>Stop losing jobs to voicemail. Add $20,000 in new trades revenue in 60 days.</h1>
           <p className="lede">You are under a sink when the phone rings. By the time you call back, they booked your competitor. The 60-Day Profit Challenge teaches HVAC and plumbing owners how to fix their money model, capture every lead, and build a shop that grows without them babysitting it.</p>
           <p style={{fontStyle: 'italic', fontSize: '16px', color: 'var(--muted)', marginTop: '12px'}}>Add $20,000 in new revenue in 60 days &mdash; or I work for free until you do.</p>
@@ -147,7 +147,7 @@ export default function Page() {
             </div>
             <div className="faq-item">
               <button className="faq-q"><span className="qnum">Q.02</span><span className="qtxt">How does this work for HVAC and plumbing companies?</span><span className="qicn">+</span></button>
-              <div className="faq-a">For HVAC and plumbing companies, the Challenge focuses on the high-leverage moves that are specific to trades: offer structure and flat-rate pricing, capturing every lead that calls, quote follow-up, your referral and review engine, and the SOPs that mean jobs get dispatched and completed without you in the middle. We have worked with trades shops across KC and the playbook is built for how a 1&ndash;20 truck operation actually runs.</div>
+              <div className="faq-a">For HVAC and plumbing companies, the Challenge focuses on the high-leverage moves that are specific to trades: offer structure and flat-rate pricing, capturing every lead that calls, quote follow-up, your referral and review engine, and the SOPs that mean jobs get dispatched and completed without you in the middle. We have worked with trades shops across the country and the playbook is built for how a 1&ndash;20 truck operation actually runs.</div>
             </div>
             <div className="faq-item">
               <button className="faq-q"><span className="qnum">Q.03</span><span className="qtxt">Is this a course or a coach?</span><span className="qicn">+</span></button>
